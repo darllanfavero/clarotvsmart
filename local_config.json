@@ -1,0 +1,154 @@
+{
+  "fti_settings": {
+    "show_consent": "false",
+    "show_landing_page": "true"
+  },
+  "application_settings": {
+    "system_update_check_hours": 24,
+    "system_update_timeout_seconds": 60,
+    "guide_timeout_seconds": 600,
+    "guide_page_size_hours": 24,
+    "zapper_timeout_seconds": 5,
+    "scan_timeout_seconds": 20,
+    "query_timeout_seconds": 34,
+    "epg_cache_sync_timeout_seconds": 20,
+    "epg_timeline_interval_value_minutes": 30,
+    "epg_visible_frame_length": 100,
+    "epg_selectable_rows": 6,
+    "epg_visible_rows": 7,
+    "vod_new_content_marker_availability_days": 14,
+    "apps_page_collection_columns_number": 6,
+    "stripe_default_limit": 20,
+    "block_restricted_content": false,
+    "ott_encodings": [
+      "HLSRT",
+      "MPEG2"
+    ],
+    "product_replay_windows": {
+      "TimeMachine": 7,
+      "TimeMachinePlus": 30
+    },
+    "product_replay_ids": [
+      "crid:~~2F~~2Fschange.com~~2F08eaeff5-913e-4c6f-8104-861177de11eb",
+      "crid:~~2F~~2Fschange.com~~2Fe5b9487a-8453-4714-9225-b422ec4d4c75"
+    ],
+    "remote_name": "RC_OMNICLAROBR",
+    "time_set_timeout_seconds": 10,
+    "player_ui_disappear_timeout": 4,
+    "max_number_of_channels": 1000,
+    "future_broadcast_recording_padding": 5,
+    "past_broadcast_recording_padding": 30,
+    "filtered_broadcasts_time_frame_days": 7,
+    "pin_attempts_number": 3,
+    "pin_blocked_counter_seconds": 30,
+    //seeking speed settings
+    "minimum_seeking_speed_seconds": 1,
+    "maximum_seeking_speed_seconds": 30,
+    "maximum_seeking_speed_rewind_seconds": 10,
+    "single_press_jump_factor_percentage": 2,
+    "long_press_jump_factor": 4,
+    "single_skip_back_seconds": 30,
+    "single_skip_forward_seconds": 60,
+    "long_press_skip_factor": 5,
+    //spinner delay
+    "spinner_delay_seconds": 2,
+    //percent watched of continue watching for bookmark saving
+    "continue_watch_percentage": 0.95,
+    // The time for which the parental control is temporally unblocked.
+    "parental_control_temporal_unblock_seconds": 14400,
+    // Authentication request timeouts
+    "authentication_maximum_retry_timeout_seconds": 600,
+    "authentication_minimum_retry_timeout_seconds": 60,
+    "authentication_suspend_seconds": 10,
+    "myworld_rootid_retry_max_seconds": 300,
+    "myworld_rootid_retry_min_seconds": 10,
+    "ping_address": "8.8.8.8"
+  },
+  "playback_settings": {
+    "playback_fallback_timeout_seconds": 5,
+    "mw_playback_timeout_seconds": 5,
+    "ott_playback_timeout_seconds": 25,
+    "ott_live_player_min_buffer_seconds": 24,
+    "ott_live_player_max_buffer_seconds": 30,
+    "ott_player_max_buffer_seconds": 60,
+    "ott_player_min_buffer_seconds": 54,
+    "ott_profile_blacklist_timeout_seconds": 0,
+    "ott_live_edge_latency_ms": 20000,
+    "startover_min_position_ms": 10000,
+    "prime_time": {
+      "default": "19:00",
+      "PST": "12:00"
+    },
+    "prime_time_of_the_next_day": {
+      "default": "19:00",
+      "PST": "12:00"
+    },
+    "on_demand_stream_switch_delay_seconds": 3600,
+    "stun_server_host": "stun1.starman.ee",
+    "stun_server_port": 3478
+  },
+  "cache_settings": {
+    "schedule_distribution_minutes": 60,
+    "channels_refresh_hours": 24,
+    "epg_cache_update_min": 180,
+    "epg_loading_window_past_hours": 1,
+    "epg_loading_window_future_hours": 1,
+    "epg_min_chunk_hours": 24,
+    "epg_max_chunk_hours": 24,
+    "epg_past_update_broadcasts_interval_days": 14,
+    "epg_future_update_broadcasts_interval_days": 7,
+    "epg_extra_channels_cache": 5,
+    "worlds_items_cache_update_hours": 12,
+    "worlds_top_categories_cache_update_hours": 24
+  },
+  "notification_settings": {
+    "low_priority_duration": "2",
+    "normal_priority_duration": "4",
+    "high_priority_duration": "10",
+    "urgent_priority_duration": "60",
+    "display_icon_when_empty": true
+  },
+  "offline_mode_settings": {
+    "notification_redisplay_period": "600",
+    "internet_check_period": "30"
+  },
+  "initial_app_order": [
+    "com.android.vending",
+    "com.google.android.videos",
+    "com.google.android.youtube.tv",
+    "com.google.android.youtube.tvmusic",
+    "com.google.android.play.games",
+    "com.amazon.amazonvideo.livingroom"
+  ],
+  "default_pin": "1234",
+  "test_credentials": {
+    "default": {
+      "smartCardId": "01473242709",
+      "chipId": "00713804694"
+    },
+    "all_products": {
+      "smartCardId": "01473356824",
+      "chipId": "00713813559"
+    },
+    "all_products_iptv": {
+      "smartCardId": "01473356816",
+      "chipId": "00713812919"
+    },
+    "minimum_set": {
+      "smartCardId": "01473356823",
+      "chipId": "00713810584"
+    },
+    "normal_npvr": {
+      "smartCardId": "01473356822",
+      "chipId": "00713813644"
+    },
+    "normal_svod": {
+      "smartCardId": "01473356821",
+      "chipId": "00713813328"
+    },
+    "normal_iptv": {
+      "smartCardId": "01473356820",
+      "chipId": "00713813697"
+    }
+  }
+}

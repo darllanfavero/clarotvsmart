@@ -1,0 +1,197 @@
+{
+  "success": true,
+  "data": {
+    "api_config": {
+      "page_size": 21,
+      "config_id": "offline"
+    },
+    "app_config": {
+      "style_settings": {
+        "button_style": "claro",
+        "font_style": "claro",
+        "content_marker_style": "claro"
+      },
+      "pin_settings": {
+        "allowed_wrong_attempts": null,
+        "wrong_attempts_lock_duration": null,
+        "parental_control_temp_unlock": 14400000
+      },
+      "locale_settings": {
+        "currency": "EUR",
+        "currency_sign": "€",
+        "decimal_seperator": ",",
+        "number_seperator": ".",
+        "date_format": "dd.MM.YYYY",
+        "time_format": "HH:mm"
+      },
+      "play_apps": {
+        "featured": [
+          "com.google.android.youtube.tv",
+          "com.amazon.amazonvideo.livingroom",
+          "com.disney.disneyplus",
+          "tv.twitch.android.app",
+          "com.spotify.tv.android"
+        ],
+        "store": [
+          "com.android.vending"
+        ]
+      },
+      "search_threshold": 3,
+      "content_markers": {
+        "_DEFAULT": {
+          "color": "#ffffff",
+          "background": "#D13D39",
+          "transparency": 1,
+          "gradient": {
+            "from": "#D13D39",
+            "to": "#D13D39"
+          }
+        }
+      },
+      "tracking": []
+    },
+    "content_config": {
+      "configs": [
+        {
+          "title": "MODULE_MAIN_MENU_APPS",
+          "id": "APPS_GAMES",
+          "type": "modular_page",
+          "modules": [
+            {
+              "title": "",
+              "module": "Stripe",
+              "type": "android_tv_system_notifications",
+              "variant": "d1",
+              "datasource": {
+                "Service": "AndroidGms",
+                "request": {
+                  "method": "android_tv_notifications"
+                },
+                "params": {
+                  "filter": [
+                    "priority[critical]"
+                  ]
+                }
+              },
+              "min_elements": 0
+            },
+            {
+              "title": "APPS_RECOMMENDED",
+              "module": "Stripe",
+              "type": "android_tv_apps",
+              "variant": "a1",
+              "datasource": {
+                "Service": "AndroidGms",
+                "request": {
+                  "method": "android_tv_apps"
+                },
+                "params": {
+                  "filter": [
+                    "type[featured]"
+                  ],
+                  "sort": [
+                    "featured"
+                  ]
+                }
+              }
+            },
+            {
+              "title": "APPS_INSTALLED_APPS",
+              "module": "Collection",
+              "type": "android_tv_apps",
+              "variant": "a1",
+              "datasource": {
+                "Service": "AndroidGms",
+                "request": {
+                  "method": "android_tv_apps"
+                },
+                "params": {
+                  "filter": [
+                    "type[store,installed]"
+                  ],
+                  "order": [
+                    "store",
+                    "recency"
+                  ]
+                }
+              },
+              "id": 1
+            }
+          ],
+          "subpages": []
+        }
+      ],
+      "main_menu": [
+        {
+          "title": "MODULE_MAIN_MENU_APPS",
+          "id": "APPS_GAMES"
+        }
+      ],
+      "footer_menu": []
+    },
+    "layout_config": {
+      "title": "Claro",
+      "language": "en",
+      "logo": "claro_menu_logo",
+      "primary": "#D13D39",
+      "secondary": "#D13D39",
+      "placeholder": "#1A1A1A",
+      "error": "#FF1D15",
+      "success": "#89B613",
+      "font": "#EEEEEE",
+      "focused_font": "#EEEEEE",
+      "focused_background": "#ffffff",
+      "placeholder_font": "#EEEEEE",
+      "progress_bar_color": "#D13D39",
+      "notification_icon_unread_color": "#D13D39",
+      "notification_icon_read_color": "#EEEEEE",
+      "notification_icon_color": "#EEEEEE",
+      "menu_selector_focused": "#D13D39",
+      "menu_selector_active": "#33EEEEEE",
+      "menu_selector_no_state": "#FFFFFF",
+      "settings_submenu_color": "#56ACFC",
+      "button_focused_font": "#000000",
+      "button_active": "#EEEEEE",
+      "button_disabled": "#33EEEEEE",
+      "button_focused": "#EEEEEE",
+      "button_no_state_border": "#54EEEEEE",
+      "button_no_state": "#54EEEEEE",
+      "button_pressed": "#EEEEEE",
+      "input_cursor_color": "#EE2E5D",
+      "black_color": "#000000",
+      "welcome_logo": "",
+      "welcome_color": "#0A0A0A",
+      "welcome_background": "",
+      "spinner_icon": "startup_spinner",
+      "switch_thumb_checked_color": "#4FA7FA",
+      "switch_track_checked_color": "#4D4FA7FA",
+      "switch_thumb_unchecked_color": "#B9B9B9",
+      "switch_track_unchecked_color": "#52EEEEEE",
+      "radio_button_checked_color": "#56ACFC",
+      "radio_button_unchecked_color": "#B3FFFFFF",
+      "play_icon": "playback_play_icon",
+      "rewind_icon": "playback_rw_icon",
+      "forward_icon": "playback_fw_icon",
+      "pause_icon": "playback_pause_icon",
+      "play_animated": "true",
+      "channel_logo_set": "light",
+      "background": "#000000",
+      "notification_background": "#CC1A1A1A",
+      "app_card_background": "#1A1A1A",
+      "background_player_type": "full_player",
+      "player_transition": "true",
+      "hide_first_menu_item": "false",
+      "empty_page_message": "EMPTY_CONTENT_PAGES_GLOBAL"
+    },
+    "feature_control": {
+      "offline": true,
+      "search": true,
+      "pvr": false,
+      "open_home_after_standby": true
+    },
+    "is_local_environment": false
+  },
+  "err": null,
+  "transaction_id": "e0785870-f13a-11e7-ae37-e7c8b0b7b5ff",
+  "servertime": 1515062083483
+}

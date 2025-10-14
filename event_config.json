@@ -1,0 +1,83 @@
+{
+  "send_batch_threshold": 200,
+  "send_batch_interval": 300000,
+  "send_stats_interval": 600000,
+  "bandwidth_trace_threshold": 20,
+  "bandwidth_trace_interval": 30000,
+  "playback_progress_interval": 30000,
+  "handlers": [
+  ],
+
+  "event_handlers": [
+    {
+      "instant": true,
+      "batch": false,
+      "domain": "Playback",
+      "events": [
+        "PlaybackStarted",
+        "PlaybackFailed",
+        "PlaybackPaused",
+        "PlaybackResumed",
+        "PlaybackStopped",
+        "PlaybackInterrupted",
+        "PlaybackDisconnected",
+        "PlaybackRecovered",
+        "Seek",
+
+        "ProgramChangedStart",
+        "ProgramChangedStop"
+      ],
+      "handlers": [
+      ]
+    },
+    {
+      "instant": true,
+      "batch": false,
+      "domain": "UI",
+      "events": [
+        "Started",
+        "Stopped",
+        "Standby",
+        "Display",
+        "ButtonPress",
+        "RecordingScheduled",
+        "SeriesRecScheduled",
+        "RecordingStarted",
+        "RecordingStopped",
+        "RecordingDeleted",
+        "SeriesRecDeleted",
+        "RecordingCanceled",
+        "SeriesRecCanceled"
+      ],
+      "handlers": [
+      ]
+    },
+    {
+      "instant": true,
+      "batch": false,
+      "domain": "Generic",
+      "events": [
+        "ErrorEvent"
+      ],
+      "handlers": [
+      ]
+    },
+    {
+      "instant": true,
+      "batch": false,
+      "domain": "Playback",
+      "events": [
+        "StartInitiated",
+        "StartResolved",
+        "PlaybackStarted",
+        "PlaybackFailed",
+        "PlaybackStopped",
+        "StartResolved",
+        "BitrateChange",
+        "StateChanged"
+      ],
+      "handlers": [
+      ]
+    }
+  ]
+}

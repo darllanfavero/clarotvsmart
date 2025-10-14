@@ -1,0 +1,38 @@
+[
+  {
+    "type": "regular",
+    "name": "amx_regular"
+  },
+  {
+    "type": "detail_regular",
+    "name": "amx_regular"
+  },
+  {
+    "type": "regular_italic",
+    "name": "brown_regular_italic"
+  },
+  {
+    "type": "bold",
+    "name": "amx_bold"
+  },
+  {
+    "type": "detail_bold",
+    "name": "amx_bold"
+  },
+  {
+    "type": "extra_bold",
+    "name": "amx_bold"
+  },
+  {
+    "type": "bold_italic",
+    "name": "amx_bold_italic"
+  },
+  {
+    "type": "light",
+    "name": "amx_light"
+  },
+  {
+    "type": "light_italic",
+    "name": "amx_light_italic"
+  }
+]

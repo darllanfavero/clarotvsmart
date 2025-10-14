@@ -1,0 +1,36 @@
+[
+  {
+    "type" : "regular",
+    "name" : "avenir_roman"
+  },
+
+  {
+    "type" : "regular_italic",
+    "name" : "avenir_oblique"
+  },
+
+  {
+    "type" : "bold",
+    "name" : "avenir_heavy"
+  },
+
+  {
+    "type" : "extra_bold",
+    "name" : "avenir_black"
+  },
+
+  {
+    "type" : "bold_italic",
+    "name" : "avenir_heavy_oblique"
+  },
+
+  {
+    "type" : "light",
+    "name" : "avenir_light"
+  },
+
+  {
+    "type" : "light_italic",
+    "name" : "avenir_oblique"
+  }
+]

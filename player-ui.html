@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" id="uicss">
+    <link type="text/css" rel="stylesheet" id="supplementaluicss">
+    <style type="text/css">
+        /**
+         * HACK: needed to fix display bug which occurs cause no figure is present
+         * as it would when the real HTML5 player would be used
+         */
+        .bmpui-ui-controlbar,
+        .bmpui-ui-titlebar {
+            box-sizing: border-box;
+        }
+
+        /**
+         * HACK: The black fading background of the time is longer than the actual element
+         * by exactly the left and right padding. Changing the box-sizing fixes this problem.
+         *
+         */
+        .bmpui-ui-uicontainer .bmpui-ui-seekbar-label
+        .bmpui-seekbar-label-inner .bmpui-container-wrapper
+        .bmpui-seekbar-label-metadata {
+            box-sizing: border-box;
+        }
+
+        /**
+         * HACK: FCC: Hide FCC Subtitle settings as they do not fit into the webview space
+         */
+        .bmpui-ui-subtitlesettingsopenbutton {
+            display: none;
+        }
+
+        .bmpui-ui-fullscreentogglebutton {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="ui-container">
+
+</div>
+<!--
+The reference is used after packaging when all JS related files were moved to the assets folder
+For details look at playercore.gradle#createAndExecuteJSMinifyTasks
+-->
+<script type="text/javascript" src="main-release.js"></script>
+</body>
+</html>

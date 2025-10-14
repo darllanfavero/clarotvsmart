@@ -1,0 +1,32 @@
+[
+  {
+    "type": "Player",
+    "display": "playback_error",
+    "priority": 0
+  },
+  {
+    "type": "App",
+    "display": "alert",
+    "priority": 0
+  },
+  {
+    "type": "Middleware",
+    "display": "alert",
+    "priority": 0
+  },
+  {
+    "type": "Backend",
+    "display": "notification",
+    "priority": 0
+  },
+  {
+    "type": "Entitlement",
+    "display": "notification",
+    "priority": 0
+  },
+  {
+    "type": "Provisioning",
+    "display": "alert",
+    "priority": 115
+  }
+]

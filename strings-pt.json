@@ -1,0 +1,2846 @@
+[
+    {
+        "term": "OK_BUTTON",
+        "definition": "OK"
+    },
+    {
+        "term": "ERR_A001_NO_INTERNET",
+        "definition": "Ops\u2026 Sem conex\u00e3o com a internet :("
+    },
+    {
+        "term": "ERR_A001_NO_INTERNET_BUTTON",
+        "definition": "Tente novamente"
+    },
+    {
+        "term": "ERR_A001_NO_INTERNET_BUTTON_USE_OFFLINE",
+        "definition": "Usar offline"
+    },
+    {
+        "term": "ERR_A001_NO_INTERNET_DESC",
+        "definition": "Verifique se o cabo Ethernet est\u00e1 conectado ou se voc\u00ea est\u00e1 conectado a uma rede Wi-Fi r\u00e1pida."
+    },
+    {
+        "term": "SCREEN_ALERT_CONNECTION_RESTORED_HEADER",
+        "definition": "Conex\u00e3o com a Internet restaurada"
+    },
+    {
+        "term": "SCREEN_ALERT_CONNECTION_RESTORED_BODY",
+        "definition": "Seu aplicativo de TV ser\u00e1 reiniciado."
+    },
+    {
+        "term": "SCREEN_ALERT_NO_NETWORK_CONNECTION_TITLE",
+        "definition": "Sem conex\u00e3o de rede"
+    },
+    {
+        "term": "SCREEN_ALERT_NO_NETWORK_CONNECTION_DESCRIPTION",
+        "definition": "Seu dispositivo n\u00e3o est\u00e1 conectado a uma rede ou a conex\u00e3o \u00e9 muito fraca. Verifique a conex\u00e3o."
+    },
+    {
+        "term": "ERR_NO_INTERNET",
+        "definition": "Voc\u00ea perdeu sua conex\u00e3o com a Internet."
+    },
+    {
+        "term": "SCREEN_SETTINGS_PROMOTIONS_SWITCHER",
+        "definition": "Promo\u00e7\u00f5es da Claro"
+    },
+    {
+        "term": "SCREEN_LOGIN_BUTTON",
+        "definition": "Login"
+    },
+    {
+        "term": "SCREEN_SUBSCRIBE_BUTTON",
+        "definition": "Assine j\u00e1"
+    },
+    {
+        "term": "SCREEN_SETTINGS_PROMOTIONS",
+        "definition": "Promo\u00e7\u00f5es"
+    },
+    {
+        "term": "SCREEN_LOGIN_EMAIL_FIELD",
+        "definition": "Email/Username/CPF"
+    },
+    {
+        "term": "SCREEN_LOGIN_PASSWORD_FIELD",
+        "definition": "Senha"
+    },
+    {
+        "term": "SCREEN_LOGIN_GUEST_BUTTON",
+        "definition": "Continue sem Conta"
+    },
+    {
+        "term": "SCREEN_SETTINGS_LOGIN",
+        "definition": "Login"
+    },
+    {
+        "term": "SCREEN_SETTINGS_SUBSCRIBE",
+        "definition": "Assine"
+    },
+    {
+        "term": "SETTINGS_LANGUAGE_PREFERENCES",
+        "definition": "Prefer\u00eancias de idioma"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION",
+        "definition": "Informa\u00e7\u00e3o do sistema"
+    },
+    {
+        "term": "SETTINGS_CHECK_FOR_UPDATES",
+        "definition": "Verifique se h\u00e1 atualiza\u00e7\u00f5es"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_HOME",
+        "definition": "In\u00edcio"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_APPS",
+        "definition": "Apps"
+    },
+    {
+        "term": "APPS_RECOMMENDED",
+        "definition": "Aplicativos recomendados"
+    },
+    {
+        "term": "APPS_INSTALLED_APPS",
+        "definition": "Aplicativos instalados"
+    },
+    {
+        "term": "STRIPE_FEATURED_APPS",
+        "definition": "Aplicativos em destaque"
+    },
+    {
+        "term": "STRIPE_CHANNELS_API",
+        "definition": "Recomenda\u00e7\u00f5es do Youtube"
+    },
+    {
+        "term": "SETTINGS_LANGUAGE_UI_LANGUAGE",
+        "definition": "Idioma do menu"
+    },
+    {
+        "term": "SETTINGS_LANGUAGE_UI_LANGUAGE_HINT",
+        "definition": "Se voc\u00ea alterar o idioma, o aplicativo ser\u00e1 reiniciado agora"
+    },
+    {
+        "term": "SETTINGS_SECTION_TITLE",
+        "definition": "Configura\u00e7\u00f5es de TV"
+    },
+    {
+        "term": "SETTINGS_MAIN_ITEM_TV_SETTINGS",
+        "definition": "Configura\u00e7\u00f5es Claro"
+    },
+    {
+        "term": "SETTINGS_MAIN_ITEM_DEVICE_SETTINGS",
+        "definition": "Dispositivo"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_DEVICE_NAME",
+        "definition": "Nome do dispositivo"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_ANDROID_SERIAL_NO",
+        "definition": "ID do Google"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_INFO_NA",
+        "definition": "N / D"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_APP_VERSION",
+        "definition": "Vers\u00e3o do aplicativo"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_MW_VERSION",
+        "definition": "Vers\u00e3o de middleware"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_RC_VERSION",
+        "definition": "Vers\u00e3o de controle remoto"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_IP_ADDRESS",
+        "definition": "Endere\u00e7o IP"
+    },
+    {
+        "term": "SETTINGS_MAIN_ITEM_SYSTEM",
+        "definition": "Sistema"
+    },
+    {
+        "term": "SCREEN_SETTINGS_CLARO_STREAMING",
+        "definition": "Acesse"
+    },
+    {
+        "term": "EMPTY_CONTENT_PAGES_GLOBAL",
+        "definition": "Desculpa! Parece que n\u00e3o h\u00e1 nada aqui.\nPor favor, volte mais tarde."
+    },
+    {
+        "term": "DAY_NAME_YESTERDAY",
+        "definition": "Ontem"
+    },
+    {
+        "term": "DAY_NAME_TODAY",
+        "definition": "Hoje"
+    },
+    {
+        "term": "DAY_NAME_MONDAY",
+        "definition": "Seg."
+    },
+    {
+        "term": "DAY_NAME_TUESDAY",
+        "definition": "Ter."
+    },
+    {
+        "term": "DAY_NAME_WEDNESDAY",
+        "definition": "Qua."
+    },
+    {
+        "term": "DAY_NAME_THURSDAY",
+        "definition": "Qui."
+    },
+    {
+        "term": "DAY_NAME_FRIDAY",
+        "definition": "Sex."
+    },
+    {
+        "term": "DAY_NAME_SATURDAY",
+        "definition": "S\u00e1b."
+    },
+    {
+        "term": "DAY_NAME_SUNDAY",
+        "definition": "Dom."
+    },
+    {
+        "term": "DAY_NAME_TOMORROW",
+        "definition": "Amanh\u00e3"
+    },
+    {
+        "term": "MONTH_NAME_JANUARY",
+        "definition": "Jan"
+    },
+    {
+        "term": "MONTH_NAME_FEBRUARY",
+        "definition": "Fev"
+    },
+    {
+        "term": "MONTH_NAME_MARCH",
+        "definition": "Mar"
+    },
+    {
+        "term": "MONTH_NAME_APRIL",
+        "definition": "Abr"
+    },
+    {
+        "term": "MONTH_NAME_MAY",
+        "definition": "Maio"
+    },
+    {
+        "term": "MONTH_NAME_JUNE",
+        "definition": "Junho"
+    },
+    {
+        "term": "MONTH_NAME_JULY",
+        "definition": "Julho"
+    },
+    {
+        "term": "MONTH_NAME_AUGUST",
+        "definition": "Ago"
+    },
+    {
+        "term": "MONTH_NAME_SEPTEMBER",
+        "definition": "Set"
+    },
+    {
+        "term": "MONTH_NAME_OCTOBER",
+        "definition": "Out"
+    },
+    {
+        "term": "MONTH_NAME_NOVEMBER",
+        "definition": "Nov"
+    },
+    {
+        "term": "MONTH_NAME_DECEMBER",
+        "definition": "Dez"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_MONDAY",
+        "definition": "Segunda-feira"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_TUESDAY",
+        "definition": "Ter\u00e7a-feira"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_WEDNESDAY",
+        "definition": "Quarta-feira"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_THURSDAY",
+        "definition": "Quinta-feira"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_FRIDAY",
+        "definition": "Sexta-feira"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_SATURDAY",
+        "definition": "S\u00e1bado"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_SUNDAY",
+        "definition": "Domingo"
+    },
+    {
+        "term": "DAY_NAME_LAST_MONDAY",
+        "definition": "Seg."
+    },
+    {
+        "term": "DAY_NAME_LAST_TUESDAY",
+        "definition": "Ter."
+    },
+    {
+        "term": "DAY_NAME_LAST_WEDNESDAY",
+        "definition": "Qua."
+    },
+    {
+        "term": "DAY_NAME_LAST_THURSDAY",
+        "definition": "Qui."
+    },
+    {
+        "term": "DAY_NAME_LAST_FRIDAY",
+        "definition": "Sex."
+    },
+    {
+        "term": "DAY_NAME_LAST_SATURDAY",
+        "definition": "S\u00e1b."
+    },
+    {
+        "term": "DAY_NAME_LAST_SUNDAY",
+        "definition": "Dom."
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_MONDAY",
+        "definition": "Segunda-feira passada"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_TUESDAY",
+        "definition": "Ter\u00e7a-feira passada"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_WEDNESDAY",
+        "definition": "Quarta-feira passada"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_THURSDAY",
+        "definition": "Quinta-feira passada"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_FRIDAY",
+        "definition": "Sexta-feira passada"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_SATURDAY",
+        "definition": "S\u00e1bado passado"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_LAST_SUNDAY",
+        "definition": "Domingo passado"
+    },
+    {
+        "term": "DAY_NAME_TODAY_NOW",
+        "definition": "Agora"
+    },
+    {
+        "term": "DAY_NAME_TODAY_TONIGHT",
+        "definition": "Esta noite"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_YESTERDAY",
+        "definition": "Ontem"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_TODAY",
+        "definition": "Hoje"
+    },
+    {
+        "term": "DAY_NAME_DIVIDER_TOMORROW",
+        "definition": "Amanh\u00e3"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_JANUARY",
+        "definition": "Janeiro"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_FEBRUARY",
+        "definition": "Fevereiro"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_MARCH",
+        "definition": "Mar\u00e7o"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_APRIL",
+        "definition": "Abril"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_MAY",
+        "definition": "Maio"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_JUNE",
+        "definition": "Junho"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_JULY",
+        "definition": "Julho"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_AUGUST",
+        "definition": "Agosto"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_SEPTEMBER",
+        "definition": "Setembro"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_OCTOBER",
+        "definition": "Outubro"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_NOVEMBER",
+        "definition": "Novembro"
+    },
+    {
+        "term": "MONTH_NAME_DIVIDER_DECEMBER",
+        "definition": "Dezembro"
+    },
+    {
+        "term": "SCREEN_DETAIL_TIME_HOURS",
+        "definition": "h"
+    },
+    {
+        "term": "SCREEN_DETAIL_TIME_MINUTES",
+        "definition": "m"
+    },
+    {
+        "term": "SCREEN_DETAIL_PLAY_BUTTON",
+        "definition": "Assistir"
+    },
+    {
+        "term": "SCREEN_DETAIL_TRAILER_BUTTON",
+        "definition": "Trailer"
+    },
+    {
+        "term": "SCREEN_DETAIL_SEASON_TAB_SELECTOR",
+        "definition": "Temporada"
+    },
+    {
+        "term": "SCREEN_DETAIL_MORE_INFO_BUTTON",
+        "definition": "Acesse"
+    },
+    {
+        "term": "SCREEN_SEARCH",
+        "definition": "T\u00edtulos, atores, g\u00eaneros, canais"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_MAC_ADDRESS",
+        "definition": "Endere\u00e7o MAC"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_CONFIG_ID",
+        "definition": "ID de configura\u00e7\u00e3o"
+    },
+    {
+        "term": "SEASON_INFO_NOT_AVAILABLE",
+        "definition": "N\u00e3o dispon\u00edvel"
+    },
+    {
+        "term": "SCREEN_EPG_FAVORITES_ADD",
+        "definition": "Adicionar"
+    },
+    {
+        "term": "SCREEN_EPG_FAVORITES_REMOVE",
+        "definition": "Remover"
+    },
+    {
+        "term": "SCREEN_EPG_DONE",
+        "definition": "OK"
+    },
+    {
+        "term": "HOVER_SEASON",
+        "definition": "T"
+    },
+    {
+        "term": "HOVER_EPISODE",
+        "definition": "E"
+    },
+    {
+        "term": "MODULE_STRIPE_NOW_NEXT_NA",
+        "definition": "Sem informa\u00e7\u00e3o dispon\u00edvel"
+    },
+    {
+        "term": "CONTENT_MARKER_NOW_PLAYING",
+        "definition": "AGORA NA TV"
+    },
+    {
+        "term": "CONTENT_MARKER_NOW",
+        "definition": "Agora"
+    },
+    {
+        "term": "CONTENT_MARKER_LIVE",
+        "definition": "Ao vivo"
+    },
+    {
+        "term": "CONTENT_MARKER_NEXT",
+        "definition": "Pr\u00f3ximo"
+    },
+    {
+        "term": "SETTINGS_MAIN_ITEM_APPLICATION",
+        "definition": "App"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_AND_PIN",
+        "definition": "Controle dos Pais & PIN"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL",
+        "definition": "Controle dos Pais"
+    },
+    {
+        "term": "SETTINGS_CHANGE_PIN_CODE",
+        "definition": "Mude o seu PIN"
+    },
+    {
+        "term": "SETTINGS_FORGOT_PIN_CODE",
+        "definition": "Esqueci o c\u00f3digo PIN"
+    },
+    {
+        "term": "SETTINGS_SUB_ITEM_DEVICE_SETTINGS",
+        "definition": "Configura\u00e7\u00f5es do dispositivo"
+    },
+    {
+        "term": "SCREEN_EPG_MANAGE_CHANNELS",
+        "definition": "Gerenciar Favoritos"
+    },
+    {
+        "term": "SCREEN_MINI_EPG_PROGRAMS_ARROW",
+        "definition": "Programas"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_SET_AGE_RESTRICTION",
+        "definition": "A restri\u00e7\u00e3o de idade atual:"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_18",
+        "definition": "18"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_16",
+        "definition": "16"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_14",
+        "definition": "14"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_12",
+        "definition": "12"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_10",
+        "definition": "10"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_18_TEXT",
+        "definition": "N\u00e3o recomendado para menores de 18 anos"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_16_TEXT",
+        "definition": "N\u00e3o recomendado para menores de 16 anos"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_14_TEXT",
+        "definition": "N\u00e3o recomendado para menores de 14 anos"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_12_TEXT",
+        "definition": "N\u00e3o recomendado para menores de 12 anos"
+    },
+    {
+        "term": "SETTINGS_PARENTAL_CONTROL_10_TEXT",
+        "definition": "N\u00e3o recomendado para menores de 10 anos"
+    },
+    {
+        "term": "SETTINGS_LANGUAGE_AUDIO_SUBTITLES",
+        "definition": "\u00c1udio & Legendas"
+    },
+    {
+        "term": "SETTINGS_ENGLISH",
+        "definition": "Ingl\u00eas"
+    },
+    {
+        "term": "SETTINGS_PORTUGUESE",
+        "definition": "Portugu\u00eas"
+    },
+    {
+        "term": "SCREEN_SUBTITLE_OFF",
+        "definition": "Desligado"
+    },
+    {
+        "term": "SETTINGS_SUBTITLE_EN",
+        "definition": "Ingl\u00eas"
+    },
+    {
+        "term": "SETTINGS_SUBTITLE_PT",
+        "definition": "Portugu\u00eas"
+    },
+    {
+        "term": "SETTINGS_SYSTEM_INFORMATION_NAGRA",
+        "definition": "Informa\u00e7\u00e3o do Nagra CAS"
+    },
+    {
+        "term": "SETTINGS_NAGRA_CMA_VERSION",
+        "definition": "Vers\u00e3o CMA"
+    },
+    {
+        "term": "SETTINGS_NAGRA_CTA_VERSION",
+        "definition": "Vers\u00e3o CTA"
+    },
+    {
+        "term": "SETTINGS_NAGRA_DEVICE_UNIQUE_ID",
+        "definition": "ID exclusivo do dispositivo"
+    },
+    {
+        "term": "SETTINGS_NAGRA_NAGRA_UNIQUE_ID",
+        "definition": "ID exclusivo Nagra (NUID)"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_CONTEXT_NAME",
+        "definition": "Nome do Contexto de Integra\u00e7\u00e3o"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_CONTEXT_TYPE",
+        "definition": "Tipo de contexto de integra\u00e7\u00e3o"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_CONTEXT_PLATFORM",
+        "definition": "Plataforma de contexto de integra\u00e7\u00e3o"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_OPERATOR_ID",
+        "definition": "ID do Operador"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_SECURITY_LEVEL",
+        "definition": "N\u00edvel de Seguran\u00e7a"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_PRODUCTION_FLAG\n",
+        "definition": "Bandeira de Produ\u00e7\u00e3o"
+    },
+    {
+        "term": "SETTINGS_NAGRA_INTEGRATION_INITIALIZATION_STATUS",
+        "definition": "Status de Inicializa\u00e7\u00e3o"
+    },
+    {
+        "term": "FTI_PREINSTALLED_APPS_TITLE",
+        "definition": "Apps Pr\u00e9-Instalados"
+    },
+    {
+        "term": "FTI_PREINSTALLED_APPS_TEXT",
+        "definition": "Os seguintes aplicativos j\u00e1 est\u00e3o instalados"
+    },
+    {
+        "term": "FTI_CONTINUE_BUTTON",
+        "definition": "Continuar"
+    },
+    {
+        "term": "FTI_LANDING_SCREEN_TITLE",
+        "definition": "Bem-vindo \u00e0 TV do futuro!"
+    },
+    {
+        "term": "FTI_LANDING_MESSAGE",
+        "definition": "Comece aqui para configurar sua Caixa Claro TV."
+    },
+    {
+        "term": "SCREEN_PASSWORDFIELD_EMAILFIELD_INCORRECT_TITLE",
+        "definition": "Opa! Falha na autentica\u00e7\u00e3o"
+    },
+    {
+        "term": "SCREEN_PASSWORDFIELD_EMAILFIELD_INCORRECT_BODY",
+        "definition": "Parece que n\u00e3o foi poss\u00edvel verificar o nome da sua conta ou a senha. Por favor, tente novamente."
+    },
+    {
+        "term": "TRY_AGAIN_BUTTON",
+        "definition": "Tente novamente"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_TV",
+        "definition": "TV"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_MOVIES",
+        "definition": "Filmes"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_SERIES",
+        "definition": "S\u00e9ries"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_SPORTS",
+        "definition": "Esportes"
+    },
+    {
+        "term": "CONTENT_MARKER_NOT_SUBSCRIBED",
+        "definition": "Assine"
+    },
+    {
+        "term": "SCREEN_PLAYER_PLAY_BUTTON",
+        "definition": "Play"
+    },
+    {
+        "term": "SCREEN_PLAYER_STARTOVER_BUTTON",
+        "definition": "Recome\u00e7ar"
+    },
+    {
+        "term": "SCREEN_PLAYER_INFO_BUTTON",
+        "definition": "Mais Info"
+    },
+    {
+        "term": "SCREEN_PLAYER_RECORD_BUTTON",
+        "definition": "Gravar"
+    },
+    {
+        "term": "SCREEN_PLAYER_JUMP_TO_LIVE_BUTTON",
+        "definition": "Pular para Ao Vivo"
+    },
+    {
+        "term": "PARENTAL_CONTROL_SETTINGS_LOCKED_CONTENT",
+        "definition": "Bloqueie todos os programas e filmes com as seguintes restri\u00e7\u00f5es de idade:"
+    },
+    {
+        "term": "PARENTAL_CONTROL_SETTINGS_LOCKED_CONTENT_TITLE",
+        "definition": "Definir restri\u00e7\u00e3o de idade"
+    },
+    {
+        "term": "SETTINGS_FORGOT_PIN_TEXT",
+        "definition": "Um e-mail foi enviado para o seu e-mail com as instru\u00e7\u00f5es para definir um novo c\u00f3digo PIN."
+    },
+    {
+        "term": "SETTINGS_FORGOT_PIN_OK",
+        "definition": "Entendido"
+    },
+    {
+        "term": "SETTINGS_FORGOT_PIN_RESEND",
+        "definition": "Reenviar"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_TITLE",
+        "definition": "Digite seu PIN atual"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_CURRENT_PIN_BODY",
+        "definition": "Seu c\u00f3digo PIN \u00e9 o mesmo do Claro tv+ website \n1\u00aa tentativa"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_RE_ENTER_TITLE",
+        "definition": "Digite novamente o seu PIN"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_RE_ENTER_BODY",
+        "definition": "O seu PIN n\u00e3o corresponde, tente novamente"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_BLOCKED_TITLE",
+        "definition": "Opa! PIN errado"
+    },
+    {
+        "term": "SYSTEM_ENTER_PIN",
+        "definition": "Digite seu novo PIN"
+    },
+    {
+        "term": "CHANGE_SYSTEM_PIN_SCREEN_TITLE",
+        "definition": "Digite seu novo PIN"
+    },
+    {
+        "term": "CHANGE_SYSTEM_PIN_SCREEN_RE_ENTER_TITLE",
+        "definition": "Digite novamente o seu novo PIN"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_BLOCKED_BODY",
+        "definition": "Voc\u00ea pode redefinir seu c\u00f3digo PIN por e-mail, caso tenha esquecido"
+    },
+    {
+        "term": "SYSTEM_PIN_RESET_BUTTON",
+        "definition": "Redefinir"
+    },
+    {
+        "term": "SETTINGS_AUDIO_LANGUAGE",
+        "definition": "Idioma de \u00c1udio"
+    },
+    {
+        "term": "SETTINGS_SUBTITLE_LANGUAGE",
+        "definition": "Legendas"
+    },
+    {
+        "term": "CHECK_UPDATES_PROGRESS_PAGE_TITLE",
+        "definition": "Verificando atualiza\u00e7\u00f5es"
+    },
+    {
+        "term": "ALERT_MANUAL_OTA_UPGRADE_AVAILABLE_TITLE",
+        "definition": "Nova atualiza\u00e7\u00e3o dispon\u00edvel"
+    },
+    {
+        "term": "ALERT_MANUAL_OTA_UPGRADE_AVAILABLE_BODY",
+        "definition": "Para ter a melhor experi\u00eancia prepararemos a Caixa Claro TV para a atualiza\u00e7\u00e3o. Reinicie a caixa quando for notificado."
+    },
+    {
+        "term": "ALERT_UPDATE_CHECK_FAILED_HEADER",
+        "definition": "Falha na verifica\u00e7\u00e3o de atualiza\u00e7\u00e3o"
+    },
+    {
+        "term": "ALERT_UPDATE_CHECK_FAILED_BODY",
+        "definition": "Ops! Algo deu errado, tente novamente mais tarde."
+    },
+    {
+        "term": "ERR_PROVISIONING_GENERIC_MESSAGE_HEADER",
+        "definition": "Servi\u00e7o n\u00e3o dispon\u00edvel"
+    },
+    {
+        "term": "ERR_PROVISIONING_GENERIC_MESSAGE_BODY",
+        "definition": "Opa! Ocorreu um erro durante a autentica\u00e7\u00e3o. Tente novamente ou entre em contato com sua operadora."
+    },
+    {
+        "term": "ERR_FTI_PROVISIONING_FAIL_BUTTON_RETRY",
+        "definition": "Tentar novamente"
+    },
+    {
+        "term": "LOCAL_SEARCH_PROGRAMS",
+        "definition": "Programas de TV"
+    },
+    {
+        "term": "LOCAL_SEARCH_CHANNELS",
+        "definition": "Canais"
+    },
+    {
+        "term": "MODULE_CARD_LOADING",
+        "definition": "Carregando..."
+    },
+    {
+        "term": "CONSENTS_TEXT",
+        "definition": "Consentimentos"
+    },
+    {
+        "term": "MODULE_CHANNEL_NOT_AVAILABLE_TITLE",
+        "definition": "Este canal n\u00e3o est\u00e1 dispon\u00edvel no momento"
+    },
+    {
+        "term": "MODULE_CHANNEL_NOT_AVAILABLE_BODY",
+        "definition": "Por favor, verifique se o seu cabo de internet est\u00e1 conectado"
+    },
+    {
+        "term": "MODULE_CHANNEL_NOT_AVAILABLE_BODY_INTERNET",
+        "definition": "Por favor, verifique sua conex\u00e3o \u00e0 internet"
+    },
+    {
+        "term": "MODULE_CHANNEL_NOT_AVAILABLE_BODY_ANTENNA",
+        "definition": "Por favor, verifique o cabo da antena"
+    },
+    {
+        "term": "SETTINGS_AUDIO_AND_SUBTITLES",
+        "definition": "\u00c1udio & Legendas"
+    },
+    {
+        "term": "FTI_PRIVACY_SETTINGS_TITLE",
+        "definition": "Consentimentos"
+    },
+    {
+        "term": "FTI_PRIVACY_SETTINGS_BODY",
+        "definition": "Publicidade personalizada que atenda \u00e0s suas necessidades sem, no entanto, voc\u00ea estar sujeito a mais publicidade. \u00c9 poss\u00edvel ! Simplesmente substitu\u00edmos alguns comerciais existentes por an\u00fancios mais relevantes para voc\u00ea."
+    },
+    {
+        "term": "FTI_PRIVACY_SETTINGS_NOTE",
+        "definition": "NB: Voc\u00ea quer mudar de ideia? Sem problemas. A qualquer momento, voc\u00ea pode alterar suas prefer\u00eancias via menu da TV (configura\u00e7\u00f5es; sistema, privacidade) ou atrav\u00e9s da Caixa Claro TV."
+    },
+    {
+        "term": "FTI_PRIVACY_SETTINGS_BUTTON_AGREE",
+        "definition": "Aceitar"
+    },
+    {
+        "term": "FTI_WELCOME_SCREEN_LOADING",
+        "definition": "Personalizando sua experi\u00eancia ..."
+    },
+    {
+        "term": "FTI_PARENTAL_CONTROL_TITLE",
+        "definition": "Controle dos Pais"
+    },
+    {
+        "term": "FTI_PARENTAL_CONTROL_BODY",
+        "definition": "Por padr\u00e3o, sua caixa est\u00e1 configurada para bloquear todo conte\u00fado que n\u00e3o seja adequado para crian\u00e7as e adolescentes com menos de 18 anos"
+    },
+    {
+        "term": "FTI_PARENTAL_CONTROL_NOTE",
+        "definition": "Voc\u00ea pode alterar isso mais tarde nas configura\u00e7\u00f5es"
+    },
+    {
+        "term": "FTI_PARENTAL_CONTROL_BUTTON_ACTIVATE",
+        "definition": "Tudo bem!"
+    },
+    {
+        "term": "FTI_PARENTAL_CONTROL_BUTTON_DEACTIVATE",
+        "definition": "Sem restri\u00e7\u00e3o"
+    },
+    {
+        "term": "SCREEN_PLAYER_SUBTITLES_BUTTON",
+        "definition": "Legenda"
+    },
+    {
+        "term": "SCREEN_AUDIO_SUBTITLES_TITLE",
+        "definition": "\u00c1udio & Legendas"
+    },
+    {
+        "term": "SCREEN_AUDIO_SUBTITLES_AUDIO_LANGUAGE",
+        "definition": "Idioma de \u00e1udio"
+    },
+    {
+        "term": "SCREEN_PLAYER_PAUSE_BUTTON",
+        "definition": "Pausa"
+    },
+    {
+        "term": "ZAPPING_INFO_CHANNEL",
+        "definition": "Canal"
+    },
+    {
+        "term": "EPG_NO_INFO",
+        "definition": "Sem dados dispon\u00edveis"
+    },
+    {
+        "term": "ERR_RENTAL_LIMIT_ERROR_TITLE",
+        "definition": "Transa\u00e7\u00e3o recusada"
+    },
+    {
+        "term": "ERR_RENTAL_LIMIT_ERROR_BODY",
+        "definition": "Voc\u00ea excedeu seu limite de aluguel mensal."
+    },
+    {
+        "term": "ERR_RENTAL_GENERIC_TITLE",
+        "definition": "Transa\u00e7\u00e3o recusada"
+    },
+    {
+        "term": "ERR_RENTAL_GENERIC_BODY",
+        "definition": "N\u00e3o se preocupe, voc\u00ea n\u00e3o ser\u00e1 cobrado por este aluguel. Tente novamente em 5 minutos. Se o problema persistir, entre em contato conosco atrav\u00e9s de https://www.claro.com.br/"
+    },
+    {
+        "term": "NOTIFICATION_PURCHASE_SUCCESS_TITLE",
+        "definition": "Compra conclu\u00edda. Aproveite!"
+    },
+    {
+        "term": "NOTIFICATION_PURCHASE_SUCCESS_BODY",
+        "definition": "Aproveite!"
+    },
+    {
+        "term": "NOTIFICATION_PLAYER_AGE_RATING_TITLE",
+        "definition": "Aviso, este \u00e9 um conte\u00fado com restri\u00e7\u00e3o de idade"
+    },
+    {
+        "term": "NOTIFICATION_PLAYER_AGE_RATING_BODY",
+        "definition": "N\u00e3o \u00e9 adequado para menores de %parental_control_rating% anos"
+    },
+    {
+        "term": "SCREEN_SEARCH_NORESULTS",
+        "definition": "Nenhum resultado encontrado"
+    },
+    {
+        "term": "SCREEN_SEARCH_NORESULTS_SUBTITLE",
+        "definition": "Por favor, tente outro pedido de pesquisa."
+    },
+    {
+        "term": "HOME_STRIPE_RECENTLY_WATCHED",
+        "definition": "Continue Assistindo"
+    },
+    {
+        "term": "HOME_STRIPE_RECOMMENDATIONS",
+        "definition": "Filmes recomendados"
+    },
+    {
+        "term": "HOME_STRIPE_SURPRISE_ME",
+        "definition": "Surpreenda-me"
+    },
+    {
+        "term": "HOME_STRIPE_MOVIES",
+        "definition": "Lan\u00e7amentos"
+    },
+    {
+        "term": "HOME_STRIPE_SERIES",
+        "definition": "S\u00e9ries Populares"
+    },
+    {
+        "term": "HOME_STRIPE_NOW_ON_TV",
+        "definition": "No ar"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_KIDS",
+        "definition": "Kids"
+    },
+    {
+        "term": "HOME_STRIPE_NETFLIX",
+        "definition": "Tend\u00eancias na Netflix"
+    },
+    {
+        "term": "HOME_STRIPE_DISNEY_PLUS",
+        "definition": "Tend\u00eancias na Disney +"
+    },
+    {
+        "term": "STRIPE_AMAZON_PRIME_VIDEO",
+        "definition": "Amazon Prime"
+    },
+    {
+        "term": "HOME_STRIPE_PROMOTIONS",
+        "definition": "Promo\u00e7\u00f5es"
+    },
+    {
+        "term": "CONTENT_MARKER_UPCOMING",
+        "definition": "A SEGUIR"
+    },
+    {
+        "term": "CONTENT_MARKER_RENTAL_TIME_REMAINING",
+        "definition": "%hours%h %minutes%m"
+    },
+    {
+        "term": "HOME_STRIPE_KIDS",
+        "definition": "Kids"
+    },
+    {
+        "term": "ERR_A012_DETAIL_DISPLAY_ERROR_DESC",
+        "definition": "Os detalhes n\u00e3o podem ser exibidos agora. Por favor, tente novamente mais tarde."
+    },
+    {
+        "term": "ERR_A012_DETAIL_DISPLAY_ERROR",
+        "definition": "Erro de detalhe"
+    },
+    {
+        "term": "CLOSE_BUTTON",
+        "definition": "Fechar"
+    },
+    {
+        "term": "ERR_CODE",
+        "definition": "Erro de c\u00f3digo:"
+    },
+    {
+        "term": "SCREEN_TAB_NAVIGATION_CAST&CREW",
+        "definition": "Atores"
+    },
+    {
+        "term": "SCREEN_DETAIL_LIKE_BUTTON",
+        "definition": "Curtir"
+    },
+    {
+        "term": "LOCAL_SEARCH_MOVIES",
+        "definition": "Filmes"
+    },
+    {
+        "term": "LOCAL_SEARCH_SERIES",
+        "definition": "S\u00e9ries"
+    },
+    {
+        "term": "SCREEN_DETAIL_SUBTITLED_LABEL",
+        "definition": "Legendado"
+    },
+    {
+        "term": "SCREEN_DETAIL_MULTIPLE_AUDIO_LANGUAGES_LABEL",
+        "definition": "Dublado"
+    },
+    {
+        "term": "SCREEN_DETAIL_SEASONS_TAB_SELECTOR",
+        "definition": "Temporadas"
+    },
+    {
+        "term": "SCREEN_DETAIL_RENT_FOR_PRICE_BUTTON",
+        "definition": "Alugar por %currency% %price%"
+    },
+    {
+        "term": "DETAIL_VOD_AVAILABILITY",
+        "definition": "Dispon\u00edvel at\u00e9"
+    },
+    {
+        "term": "DETAIL_RENTAL_TIME_TEMPLATE",
+        "definition": "Alugar por %RENTAL_DURATION%h"
+    },
+    {
+        "term": "RENT_INFO",
+        "definition": "Pressione o bot\u00e3o \"Alugar\" abaixo para confirmar que deseja alugar \u201c%PRODUCT_NAME%\u201d. A taxa ser\u00e1 adicionada \u00e0 sua pr\u00f3xima fatura."
+    },
+    {
+        "term": "SCREEN_RENT_CONFIRMATION_BUTTON",
+        "definition": "Alugar por %currency% %price%"
+    },
+    {
+        "term": "PURCHASE_PIN_ENTRY_SCREEN_TITLE",
+        "definition": "Digite seu PIN atual"
+    },
+    {
+        "term": "PURCHASE_PIN_ENTRY_SCREEN_BODY",
+        "definition": "Seu c\u00f3digo PIN \u00e9 o mesmo do Claro tv+ website \n1\u00aa tentativa"
+    },
+    {
+        "term": "SCREEN_UPSELL_ORDER_BUTTON",
+        "definition": "Op\u00e7\u00f5es"
+    },
+    {
+        "term": "SCREEN_UPSELL_SUBSCRIBE_BUTTON",
+        "definition": "Comprar por %currency% %price%"
+    },
+    {
+        "term": "SCREEN_UPSELL_BUY_BUTTON",
+        "definition": "Assine por %currency% %price%"
+    },
+    {
+        "term": "SCREEN_SUBSCRIBE_CONFIRMATION_HEADER",
+        "definition": "Assine \u201c%service_name%\u201d"
+    },
+    {
+        "term": "SUBSCRIBE_FOR_PRICE_BUTTON",
+        "definition": "Assine por %currency% %price%"
+    },
+    {
+        "term": "SCREEN_ORDER_OPTIONS_TITLE",
+        "definition": "Op\u00e7\u00f5es para assisitir"
+    },
+    {
+        "term": "SCREEN_ORDER_OPTIONS_SUBHEADER",
+        "definition": "Voc\u00ea tem v\u00e1rias op\u00e7\u00f5es para assistir a este conte\u00fado:"
+    },
+    {
+        "term": "SCREEN_LANDING_CONTINUE_BUTTON",
+        "definition": "Continuar"
+    },
+    {
+        "term": "CANCEL_BUTTON",
+        "definition": "Cancelar"
+    },
+    {
+        "term": "SIGNOUT_BUTTON",
+        "definition": "Sair"
+    },
+    {
+        "term": "SCREEN_SIGNOUT_BODY",
+        "definition": "Voc\u00ea tem certeza que deseja sair?"
+    },
+    {
+        "term": "SCREEN_SIGNOUT_HEADER",
+        "definition": "Sair"
+    },
+    {
+        "term": "SCREEN_SUBSCRIBE_SERVICE_TYPE",
+        "definition": "Servico adicional"
+    },
+    {
+        "term": "SCREEN_SUBSCRIBE_TERMS",
+        "definition": "Voc\u00ea pode encontrar os termos e regulamentos na p\u00e1gina inicial da Claro."
+    },
+    {
+        "term": "SCREEN_RENT_CONFIRMATION_HEADER",
+        "definition": "Alugar \u201c%PRODUCT_NAME%\u201d"
+    },
+    {
+        "term": "DETAIL_AUDIO_LANGUAGE",
+        "definition": "\u00c1udio: %AUDIO_LANGUAGE%"
+    },
+    {
+        "term": "DETAIL_SUBTITLES",
+        "definition": "Legendas: %SUBTITLE_LANGUAGE%"
+    },
+    {
+        "term": "SUBSCRIBE_PROMO_BUTTON",
+        "definition": null
+    },
+    {
+        "term": "BUY_FOR_PRICE_BUTTON",
+        "definition": "Comprar por %currency% %price%"
+    },
+    {
+        "term": "SCREEN_AUDIO_SUBTITLES_SUBTITLES",
+        "definition": "Legendas"
+    },
+    {
+        "term": "DETAIL_PAGE_CAST_AND_CREW_STRIPE_TITLE",
+        "definition": "Elenco & Equipe"
+    },
+    {
+        "term": "DETAIL_PAGE_RELATED_CONTENT_STRIPE_TITLE",
+        "definition": "Conte\u00fado Relacionado"
+    },
+    {
+        "term": "SCREEN_PLAYER_SKIP_MINUTES",
+        "definition": "min"
+    },
+    {
+        "term": "SCREEN_PLAYER_SKIP_SECONDS",
+        "definition": "sec"
+    },
+    {
+        "term": "RENT_TERMS",
+        "definition": "Ao concordar com a compra pressionando o bot\u00e3o \"Alugar\", voc\u00ea concorda em renunciar ao direito de rescis\u00e3o ao solicitar o aluguel de filmes digitais."
+    },
+    {
+        "term": "SUBTITLES_NONE",
+        "definition": "Nenhum"
+    },
+    {
+        "term": "SCREEN_BUY_CONFIRMATION_HEADER",
+        "definition": "Comprar \u201c%PRODUCT_NAME%\u201d"
+    },
+    {
+        "term": "BUY_INFO",
+        "definition": "Pressione o bot\u00e3o \u201cComprar\u201d abaixo para confirmar que deseja comprar \u201c%PRODUCT_NAME%\u201d. A taxa ser\u00e1 adicionada \u00e0 sua pr\u00f3xima fatura."
+    },
+    {
+        "term": "BUY_TERMS",
+        "definition": "Ao concordar com a compra pressionando o bot\u00e3o \"Comprar\", voc\u00ea concorda em renunciar ao direito de rescis\u00e3o ao solicitar o aluguel de filmes digitais."
+    },
+    {
+        "term": "FTI_LANDING_MESSAGE_ASTV",
+        "definition": "Desfrute da maior cole\u00e7\u00e3o de conte\u00fado: programas de TV, filmes e s\u00e9ries.\nTudo que voc\u00ea gosta no mesmo lugar."
+    },
+    {
+        "term": "STRIPE_SHOW_MORE_LINK",
+        "definition": "Ver Tudo"
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_INTRO_TITLE",
+        "definition": "Melhore sua experi\u00eancia com a Claro box tv"
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_INTRO_BODY",
+        "definition": "Defina suas prefer\u00eancias para recomendarmos os conte\u00fados que voc\u00ea mais gosta."
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_INTRO_OK_BUTTON",
+        "definition": "Ok, vamos l\u00e1!"
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_INTRO_SKIP_BUTTON",
+        "definition": "Pular"
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_TITLE",
+        "definition": "Selecione o conte\u00fado que voc\u00ea gosta abaixo"
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_BODY",
+        "definition": "Use o controle remoto para navegar na lista abaixo.\nSelecione o conte\u00fado que voc\u00ea gosta pressionando OK no controle remoto."
+    },
+    {
+        "term": "FTI_USER_PREFERENCES_FINISH_BUTTON",
+        "definition": "Terminar"
+    },
+    {
+        "term": "APP_CHANNEL_OK_TO_START",
+        "definition": "Pressione OK para abrir o Netflix."
+    },
+    {
+        "term": "PRODUCT_DURATION_DAYS",
+        "definition": "Dias"
+    },
+    {
+        "term": "PRODUCT_DURATION_HOURS",
+        "definition": "h"
+    },
+    {
+        "term": "PRODUCT_DURATION_MONTHS",
+        "definition": "Mensal"
+    },
+    {
+        "term": "KIDS_PAGE_CHARACTER_STRIPE_TITLE",
+        "definition": "Personagens"
+    },
+    {
+        "term": "SCREEN_LOGIN_FORGOTPASSWORD_LINK",
+        "definition": "Esqueceu sua senha?"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASSWORD_HEADER",
+        "definition": "Esqueceu a senha?"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASSWORD_BUTTON",
+        "definition": "Entendido"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASSWORD_SUBHEADER",
+        "definition": "Acesse  cadastro.claro.com.br/recuperar-senha  para redefinir sua senha."
+    },
+    {
+        "term": "ERR_LOGIN_REQUIRED_HEADER",
+        "definition": "Login necess\u00e1rio"
+    },
+    {
+        "term": "ERR_LOGIN_REQUIRED_BODY",
+        "definition": "Para assistir a Claro tv+ voc\u00ea precisa fazer login com seu usu\u00e1rio e senha Claro. Acesse o site clarotvmais.com.br e crie seu login\n"
+    },
+    {
+        "term": "CONTINUE_AS_GUEST_BUTON",
+        "definition": "Continue sem Conta"
+    },
+    {
+        "term": "SCREEN_EPG_NETFLIX_TITLE",
+        "definition": "Pressione OK para abrir o Netflix"
+    },
+    {
+        "term": "DETAIL_PAGE_MORE_LIKE_THIS",
+        "definition": "Mais como isso"
+    },
+    {
+        "term": "SCREEN_DETAIL_ADD_TO_WORLD_BUTTON",
+        "definition": "Adicionar Favorito"
+    },
+    {
+        "term": "UNSUBSCRIBED_PLAYER_INFO_TEXT",
+        "definition": "Este canal n\u00e3o est\u00e1 inclu\u00eddo em sua assinatura atual.\nPressione \u201cOK\u201d no seu controle remoto para assinar, ou pressione voltar para sair desta tela."
+    },
+    {
+        "term": "SUBSCRIBE_FOR_PRICE_MONTHLY_BUTTON",
+        "definition": "Assinar por %currency% %price% / m\u00eas"
+    },
+    {
+        "term": "SCREEN_DETAIL_UNLIKE_BUTTON",
+        "definition": "Descurtir"
+    },
+    {
+        "term": "SCREEN_DETAIL_REMOVE_FROM_WORLD_BUTTON",
+        "definition": "Remover Favorito"
+    },
+    {
+        "term": "SCREEN_SETTINGS_ABOUT",
+        "definition": "Sobre o App"
+    },
+    {
+        "term": "SCREEN_SETTINGS_LOGOUT",
+        "definition": "Sair"
+    },
+    {
+        "term": "SCREEN_LOGIN_NO_ACCOUNT_TITLE",
+        "definition": "Etapas para criar uma conta"
+    },
+    {
+        "term": "SCREEN_LOGIN_NO_ACCOUNT_BODY",
+        "definition": "Acesse o site https://www.clarotvmais.com.br/cadastro e crie sua conta."
+    },
+    {
+        "term": "SCREEN_LOGIN_NO_ACCOUNT_BUTTON",
+        "definition": "N\u00e3o tenho uma conta"
+    },
+    {
+        "term": "PACKAGE_DETAIL_PAGE_CHANNELS_STRIPE",
+        "definition": "Canais disponiveis neste plano"
+    },
+    {
+        "term": "PACKAGE_DETAIL_PAGE_ASSETS_STRIPE",
+        "definition": "Conte\u00fado deste pacote"
+    },
+    {
+        "term": "FTI_SUBSCRIPTION_DETAILS_TITLE",
+        "definition": "Detalhes do seu Plano"
+    },
+    {
+        "term": "FTI_SUBSCRIPTION_DETAILS_TEXT",
+        "definition": "Estes s\u00e3o alguns canais que est\u00e3o dispon\u00edveis em sua assinatura."
+    },
+    {
+        "term": "FTI_SUBSCRIPTION_DETAILS_FINISH_BUTTON",
+        "definition": "Termine e assista TV agora!"
+    },
+    {
+        "term": "NOTIFICATION_CURRENT_CHANNEL_ADDED_TO_FAVORITES",
+        "definition": "%CHANNEL_NAME% foi adicionado aos favoritos."
+    },
+    {
+        "term": "NOTIFICATION_CURRENT_CHANNEL_REMOVED_FROM_FAVORITES",
+        "definition": "%CHANNEL_NAME% foi removido dos favoritos."
+    },
+    {
+        "term": "RECORDING_NOTIFICATION_FUNCTIONALITY_IS_NOT_AVAILABLE",
+        "definition": "Ops! Esta funcionalidade n\u00e3o est\u00e1 dispon\u00edvel nesta vers\u00e3o do produto!"
+    },
+    {
+        "term": "NOTIFICATION_MUSICA_BUTTON",
+        "definition": "O servi\u00e7o de m\u00fasica ainda n\u00e3o est\u00e1 ativo e ser\u00e1 lan\u00e7ado em breve. Por favor, seja paciente."
+    },
+    {
+        "term": "SCREEN_DETAIL_RESUME_BUTTON",
+        "definition": "Assistir"
+    },
+    {
+        "term": "NOTIFICATION_CURRENT_CHANNEL_ALREADY_ADDED_TO_FAVORITES",
+        "definition": "O canal %CHANNEL_NAME% j\u00e1 est\u00e1 na sua lista de favoritos!"
+    },
+    {
+        "term": "NOTIFICATION_CURRENT_CHANNEL_ALREADY_REMOVED_FROM_FAVORITES",
+        "definition": "O canal %CHANNEL_NAME% j\u00e1 removido da sua lista de favoritos!"
+    },
+    {
+        "term": "NOTIFICATION_FAILED_TO_ADD_CURRENT_CHANNEL",
+        "definition": "Falha ao adicionar o canal %CHANNEL_NAME% aos favoritos, tente novamente!"
+    },
+    {
+        "term": "NOTIFICATION_FAILED_TO_REMOVE_CURRENT_CHANNEL",
+        "definition": "Falha ao remover o canal %CHANNEL_NAME% dos favoritos, tente novamente!"
+    },
+    {
+        "term": "ERR_PLAYER_GENERIC_MESSAGE",
+        "definition": "N\u00e3o foi possivel exibir o conte\u00fado. Por favor, tente novamente em alguns instantes.\nCaso o problema persista, desligue o equipamento da tomada, aguarde 10 segundos e ligue novamente."
+    },
+    {
+        "term": "CARDS_TITLE_CONTENT_LOCKED",
+        "definition": "Conte\u00fado bloqueado"
+    },
+    {
+        "term": "NOTIFICATION_PARENTAL_CONTROL_TEMPORARY_UNLOCK",
+        "definition": "O controle dos pais agora est\u00e1 temporariamente desativado at\u00e9 %time%. Voc\u00ea pode reativ\u00e1-lo a qualquer momento acessando as Configura\u00e7\u00f5es."
+    },
+    {
+        "term": "CONTENT_LOCKED_PLAYER_HINT_TEXT",
+        "definition": "Pressione OK para desbloquear o conte\u00fado ou configure o Controle dos Pais nas Configura\u00e7\u00f5es"
+    },
+    {
+        "term": "SCREEN_RESEND_EMAIL_BUTTON",
+        "definition": "Reenviar"
+    },
+    {
+        "term": "SCREEN_SETTINGS_SIMPLE_SETUP",
+        "definition": "Configura\u00e7\u00e3o de TV"
+    },
+    {
+        "term": "SETTINGS_SUB_ITEM_TV_SETUP",
+        "definition": "Configura\u00e7\u00e3o de TV"
+    },
+    {
+        "term": "SETTINGS_SUB_ITEM_RCU_PAIRING",
+        "definition": "Conex\u00e3o de Controle Remoto"
+    },
+    {
+        "term": "NOTIFICATION_RCU_ALREADY_PAIRED",
+        "definition": "Seu controle remoto j\u00e1 est\u00e1 emparelhado!"
+    },
+    {
+        "term": "SUBSCRIPTION_PACKAGES_STRIPE_TITLE",
+        "definition": "Assinaturas"
+    },
+    {
+        "term": "SUBSCRIBE_CHANNEL_NUMBER",
+        "definition": "%channels% canais"
+    },
+    {
+        "term": "SCREEN_UPSELL_CHANNEL_SUBSCRIPTION_INFO",
+        "definition": "Voc\u00ea pode se inscrever em um desses pacotes para assistir a este canal."
+    },
+    {
+        "term": "FTI_PURCHASE_OPTION_TITLE",
+        "definition": "Op\u00e7\u00f5es para voc\u00ea"
+    },
+    {
+        "term": "FTI_PURCHASE_OPTION_DESCRIPTION",
+        "definition": "O conte\u00fado que voc\u00ea deseja assistir n\u00e3o est\u00e1 incluso no seu plano.\nEscolha uma das op\u00e7\u00f5es abaixo para assistir ao conte\u00fado selecionado e muito mais."
+    },
+    {
+        "term": "GENERIC_ERROR_HANDLING_TITLE",
+        "definition": "Ops! Ocorreu um erro."
+    },
+    {
+        "term": "GENERIC_ERROR_HANDLING_BODY",
+        "definition": "Algo deu errado. Por favor, tente novamente ou reinicie o dispositivo."
+    },
+    {
+        "term": "SCREEN_UPSELL_CHANNEL_ERROR_MESSAGE",
+        "definition": "Desculpe! Parece que n\u00e3o h\u00e1 op\u00e7\u00f5es de compra dispon\u00edveis para o conte\u00fado que voc\u00ea selecionou."
+    },
+    {
+        "term": "SCREEN_LOGIN_ALERT_LOGIN_FAILED",
+        "definition": "Falha no login"
+    },
+    {
+        "term": "SCREEN_PASSWORDFIELD_EMAILFIELD_INCORRECT",
+        "definition": "Parece que n\u00e3o foi poss\u00edvel verificar o nome da sua conta ou a senha. Por favor, tente novamente."
+    },
+    {
+        "term": "SCREEN_PASSWORDFIELD_EMPTY",
+        "definition": "O campo de senha foi deixado em branco, por favor digite sua senha atual."
+    },
+    {
+        "term": "SCREEN_EMAILFIELD_EMPTY",
+        "definition": "O campo de Email/Username/CPF foi deixado em branco, digite seu endere\u00e7o de e-mail no formato: seunome@example.com"
+    },
+    {
+        "term": "MODULE_NOT_AVAILABLE_TITLE",
+        "definition": "Conte\u00fado n\u00e3o dispon\u00edvel"
+    },
+    {
+        "term": "MODULE_NOT_AVAILABLE_BODY",
+        "definition": "Este ativo n\u00e3o est\u00e1 inclu\u00eddo em seu plano. Ele estar\u00e1 dispon\u00edvel para compra em breve. Obrigados pela sua paci\u00eancia!"
+    },
+    {
+        "term": "SCREEN_ABOUT_TITLE",
+        "definition": "Sobre o aplicativo"
+    },
+    {
+        "term": "SCREEN_SETTINGS_ABOUT_OS",
+        "definition": "SO"
+    },
+    {
+        "term": "SCREEN_SETTINGS_ABOUT_OSVERSION",
+        "definition": "Vers\u00e3o do SO"
+    },
+    {
+        "term": "SETTINGS_ABOUT_APP_CONFIG_ID",
+        "definition": "ID de Configura\u00e7\u00e3o"
+    },
+    {
+        "term": "SCREEN_CHANGE_LANGUAGE_TITLE",
+        "definition": "Mudar idioma"
+    },
+    {
+        "term": "SCREEN_SETTINGS_ABOUT_DEVICE",
+        "definition": "Dispositivo"
+    },
+    {
+        "term": "CONTENT_MARKER_NEW",
+        "definition": "Novo"
+    },
+    {
+        "term": "SCREEN_ALERT_APP_EXIT_HEADER",
+        "definition": "Sair do Claro tv+"
+    },
+    {
+        "term": "SCREEN_ALERT_APP_EXIT_SUBHEADER",
+        "definition": "Tem certeza de que deseja sair do aplicativo Claro tv+?"
+    },
+    {
+        "term": "EXIT_BUTTON",
+        "definition": "Sair"
+    },
+    {
+        "term": "FTL_CONTRACTS_TITLE",
+        "definition": "Escolha o seu contrato Claro Residencial"
+    },
+    {
+        "term": "FTL_CONTRACTS_BODY",
+        "definition": "Selecione o contrato que deseja usar na caixa e pressione OK."
+    },
+    {
+        "term": "STRIPE_CHANNELS",
+        "definition": "Canais"
+    },
+    {
+        "term": "PIN_CARD_ADD_TO_HOME",
+        "definition": "Adicionar \u00e0 Home"
+    },
+    {
+        "term": "PIN_CARD_REMOVE_FROM_HOME",
+        "definition": "Remover da Home"
+    },
+    {
+        "term": "PIN_CARD_REMOVED",
+        "definition": "Removido"
+    },
+    {
+        "term": "PIN_CARD_ADDED",
+        "definition": "Adicionado"
+    },
+    {
+        "term": "PLAYER_NOT_ENTITLED_MESSAGE_SMARTTV",
+        "definition": "Voc\u00ea pode adquirir este conte\u00fado pelo site da Claro tv+"
+    },
+    {
+        "term": "SETTINGS_ABOUT_APP_OS_VERSION",
+        "definition": "Vers\u00e3o do SO"
+    },
+    {
+        "term": "SETTINGS_ABOUT_APP_USER_ACCOUNT",
+        "definition": "Conta de usu\u00e1rio"
+    },
+    {
+        "term": "SETTINGS_ABOUT_UNIQUE_DEVICE_ID",
+        "definition": "ID exclusivo"
+    },
+    {
+        "term": "SCREEN_PLAYER_LIVE",
+        "definition": "LIVE"
+    },
+    {
+        "term": "ERR_PLAYER_001_PLAYBACK_TIMEOUT",
+        "definition": "Tempo limite de in\u00edcio da reprodu\u00e7\u00e3o"
+    },
+    {
+        "term": "ERR_PLAYER_002_WEAK_SIGNAL",
+        "definition": "Sinal fraco"
+    },
+    {
+        "term": "ERR_PLAYER_003_AUDIO_ONLY",
+        "definition": "Somente Audio"
+    },
+    {
+        "term": "ERR_PLAYER_004_END_REACHED",
+        "definition": "Fim alcan\u00e7ado"
+    },
+    {
+        "term": "ERR_PLAYER_005_PLAYBACK_FAILED",
+        "definition": "A reprodu\u00e7\u00e3o falhou"
+    },
+    {
+        "term": "ERR_PLAYER_006_PLAYBACK_DISCONNECTED",
+        "definition": "A reprodu\u00e7\u00e3o foi desconectada"
+    },
+    {
+        "term": "ERR_PLAYER_007_SESSION_OPEN_FAILED",
+        "definition": "A abertura da sess\u00e3o falhou"
+    },
+    {
+        "term": "ERR_PLAYER_100_ACCESS_DENIED",
+        "definition": "Acesso negado"
+    },
+    {
+        "term": "ERR_PLAYER_101_ACCESS_DENIED_INIT_ISSUE",
+        "definition": "Problema de inicializa\u00e7\u00e3o negado de acesso"
+    },
+    {
+        "term": "ERR_PLAYER_102_ACCESS_DENIED_NO_SUBSCRIPTION",
+        "definition": "Acesso negado sem assinatura"
+    },
+    {
+        "term": "ERR_PLAYER_103_ACCESS_DENIED_PIN_REQUIRED",
+        "definition": "PIN obrigat\u00f3rio, acesso negado"
+    },
+    {
+        "term": "ERR_PLAYER_104_ACCESS_DENIED_GEO_BLACKOUT",
+        "definition": "Acesso negado: geo blackout"
+    },
+    {
+        "term": "ERR_PLAYER_105_ACCESS_DENIED_USAGE_RULE_ISSUE",
+        "definition": "Problema de regra de uso negado de acesso"
+    },
+    {
+        "term": "ERR_PLAYER_200_DRM_UNSUPPORTED_SCHEME",
+        "definition": "O esquema DRM solicitado n\u00e3o \u00e9 compat\u00edvel com o dispositivo"
+    },
+    {
+        "term": "ERR_PLAYER_201_DRM_INSTANTIATION_ERROR",
+        "definition": "Falha ao instanciar o esquema DRM"
+    },
+    {
+        "term": "ERR_PLAYER_202_DRM_SESSION_EXCEPTION",
+        "definition": "Erro durante a sess\u00e3o de DRM"
+    },
+    {
+        "term": "ERR_PLAYER_203_INVALID_CONTENT_TYPE",
+        "definition": "Tipo de conte\u00fado inv\u00e1lido"
+    },
+    {
+        "term": "ERR_PLAYER_204_INVALID_RESPONSE_CODE",
+        "definition": "C\u00f3digo de resposta de back-end inv\u00e1lido"
+    },
+    {
+        "term": "ERR_PLAYER_205_HTTP_DATA_SOURCE_EXCEPTION",
+        "definition": "Falha ao obter dados da fonte"
+    },
+    {
+        "term": "ERR_PLAYER_206_DECODER_QUERY_EXCEPTION",
+        "definition": "Falha ao consultar o decodificador do dispositivo"
+    },
+    {
+        "term": "ERR_PLAYER_207_DECODER_INITIALIZATION_EXCEPTION",
+        "definition": "Falha ao inicializar o decodificador"
+    },
+    {
+        "term": "ERR_PLAYER_208_AUDIO_DECODER_EXCEPTION",
+        "definition": "Exce\u00e7\u00e3o do decodificador de \u00e1udio"
+    },
+    {
+        "term": "ERR_PLAYER_209_AUDIO_TRACK_CONFIGURATION_EXCEPTION",
+        "definition": "Falha ao configurar a faixa de \u00e1udio"
+    },
+    {
+        "term": "ERR_PLAYER_210_AUDIO_TRACK_INITIALIZATION_EXCEPTION",
+        "definition": "Falha ao inicializar a faixa de \u00e1udio"
+    },
+    {
+        "term": "ERR_PLAYER_211_AUDIO_TRACK_WRITE_EXCEPTION",
+        "definition": "Falha ao gravar em uma faixa de \u00e1udio"
+    },
+    {
+        "term": "ERR_PLAYER_212_CRYPTO_EXCEPTION",
+        "definition": "Erro de criptografia ao consultar um buffer de entrada seguro"
+    },
+    {
+        "term": "ERR_PLAYER_213_UNEXPECTED",
+        "definition": "Erro inesperado do ExoPlayer"
+    },
+    {
+        "term": "ERR_PLAYER_214_NETWORK_CONNECTION_FAILURE",
+        "definition": "Conex\u00e3o de rede falhou"
+    },
+    {
+        "term": "ERR_PLAYER_215_FORMAT_NOT_SUPPORTED",
+        "definition": "Formato n\u00e3o suportado"
+    },
+    {
+        "term": "ERR_PLAYER_016_DRM_CONCURRENCY_EXCEPTION",
+        "definition": "Voc\u00ea excedeu o m\u00e1ximo de conex\u00f5es simult\u00e2neas"
+    },
+    {
+        "term": "SMTV_PLAYER_SETUP_LICENSE_ERROR",
+        "definition": "O servidor de licen\u00e7a do player n\u00e3o concedeu a reprodu\u00e7\u00e3o para a chave do player fornecida."
+    },
+    {
+        "term": "SMTV_PLAYER_SETUP_MISSING_DOMAIN_LICENSE_ALLOWLIST",
+        "definition": "A vers\u00e3o do player est\u00e1 bloqueada por dom\u00ednio e n\u00e3o est\u00e1 autorizada a reproduzir conte\u00fado no dom\u00ednio atual"
+    },
+    {
+        "term": "SMTV_PLAYER_NETWORK_ERROR",
+        "definition": "Infelizmente, este v\u00eddeo n\u00e3o pode ser reproduzido no momento. Verifique sua conex\u00e3o de rede ou localiza\u00e7\u00e3o."
+    },
+    {
+        "term": "SMTV_PLAYER_DRM_FAILED_LICENSE_REQUEST",
+        "definition": "Falha na solicita\u00e7\u00e3o de licen\u00e7a DRM"
+    },
+    {
+        "term": "SMTV_PLAYER_DEVICE_LIMIT_REACHED",
+        "definition": "O n\u00famero m\u00e1ximo de dispositivos foi alcan\u00e7ado"
+    },
+    {
+        "term": "SMTV_PLAYER_GEO_BLOCKED",
+        "definition": "Seu dispositivo est\u00e1 enfrentando problemas de bloqueio geogr\u00e1fico"
+    },
+    {
+        "term": "SMTV_PLAYER_CONCURRENT_STREAM_LIMIT_REACHED",
+        "definition": "O limite de streams foi atingido"
+    },
+    {
+        "term": "CONTENT_WORLD_TITLE",
+        "definition": "Seus Mundos"
+    },
+    {
+        "term": "CONTENT_WORLD_ORDER_CARD_TITLE",
+        "definition": "Gerir"
+    },
+    {
+        "term": "BACK_BUTTON",
+        "definition": "Voltar"
+    },
+    {
+        "term": "CONTENT_WORLD_ORDER_PAGE_TITLE",
+        "definition": "Seus Mundos"
+    },
+    {
+        "term": "CONTENT_WORLD_FAVORITE_WORLDS_TITLE",
+        "definition": "Favoritos"
+    },
+    {
+        "term": "CONTENT_WORLD_ALL_WORLDS_TITLE",
+        "definition": "Todos os Mundos"
+    },
+    {
+        "term": "CONTENT_WORLD_REORDER_HINT",
+        "definition": "Use setas para mover"
+    },
+    {
+        "term": "CONTENT_WORLD_ADD_HINT",
+        "definition": "OK para adicionar"
+    },
+    {
+        "term": "CONTENT_WORLD_REMOVE_HINT",
+        "definition": "OK para remover"
+    },
+    {
+        "term": "SETTINGS_LANGUAGES_SMARTTV",
+        "definition": "L\u00ednguas"
+    },
+    {
+        "term": "CONTENT_WORLD_EMPTY_MESSAGE",
+        "definition": "Sua lista de conte\u00fado favorito permaneceu vazia.\nAdicione conte\u00fado."
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_RE_ENTER_BODY_SMTV",
+        "definition": "Seu PIN est\u00e1 incorreto, tente novamente\n2\u00aa tentativa"
+    },
+    {
+        "term": "SYSTEM_PIN_ENTRY_SCREEN_BLOCKED_BODY_SMTV",
+        "definition": "Voc\u00ea atingiu sua 3\u00aa e \u00faltima tentativa.\nCaso tenha esquecido, voc\u00ea pode redefinir seu c\u00f3digo PIN via http://www.clarotvmais.com.br/"
+    },
+    {
+        "term": "BINGE_WATCHING_COUNTER",
+        "definition": "come\u00e7a em %time% s"
+    },
+    {
+        "term": "BINGE_WATCHING_NEXT_EPISODE",
+        "definition": "Pr\u00f3ximo epis\u00f3dio"
+    },
+    {
+        "term": "NEXT_EPISODE_BUTTON",
+        "definition": "Pr\u00f3ximo epis\u00f3dio"
+    },
+    {
+        "term": "WATCH_CREDITS_BUTTON",
+        "definition": "Fechar"
+    },
+    {
+        "term": "WATCH_NEXT_TITLE_BINGE",
+        "definition": "Ver a seguir"
+    },
+    {
+        "term": "BINGE_MORE_LIKE_THIS_BUTTON",
+        "definition": "Mais como isso"
+    },
+    {
+        "term": "MORE_LIKE_THIS_COLLECTION_TITLE",
+        "definition": "Mais como isso"
+    },
+    {
+        "term": "BINGE_WATCHING_LIMIT_HINT",
+        "definition": "Selecione Continuar se quiser continuar assistindo, caso contr\u00e1rio, a reprodu\u00e7\u00e3o ser\u00e1 interrompida em"
+    },
+    {
+        "term": "RENTAL_INFO_PRODUCT_TEMPLATE",
+        "definition": "Alugar por %currency% %price% / %period%h"
+    },
+    {
+        "term": "BUY_INFO_PRODUCT_TEMPLATE",
+        "definition": "Comprar por %currency% %price%"
+    },
+    {
+        "term": "SVOD_INFO_PRODUCT_TEMPLATE",
+        "definition": "%currency% %price% / m\u00eas"
+    },
+    {
+        "term": "SETTINGS_TERMS_AND_CONDITIONS",
+        "definition": "Termos e Condi\u00e7\u00f5es"
+    },
+    {
+        "term": "SETTINGS_TERMS_OF_USE",
+        "definition": "Termos de Uso"
+    },
+    {
+        "term": "SETTINGS_PRIVACY_POLICY",
+        "definition": "Pol\u00edtica de Privacidade"
+    },
+    {
+        "term": "ERR_PLAYER_P008",
+        "definition": "getCDN timeout - a liga\u00e7\u00e3o demorou mais do que o esperado"
+    },
+    {
+        "term": "ERR_PLAYER_P009",
+        "definition": "ContentId n\u00e3o permitido para usu\u00e1rio TVVAS"
+    },
+    {
+        "term": "ERR_PLAYER_P010",
+        "definition": "Pedido ruim"
+    },
+    {
+        "term": "ERR_PLAYER_P011",
+        "definition": "Limite de stream simult\u00e2neo atingido"
+    },
+    {
+        "term": "ERR_PLAYER_P012",
+        "definition": "O canal nacional n\u00e3o pode ser reproduzido em seu local"
+    },
+    {
+        "term": "ERR_PLAYER_P013",
+        "definition": "O usu\u00e1rio n\u00e3o tem permiss\u00e3o para assistir"
+    },
+    {
+        "term": "ERR_PLAYER_P014",
+        "definition": "Voc\u00ea ultrapassou o n\u00famero de dispositivos de acesso permitidos (5 por cliente). Para gerenciar os dispositivos cadastrados em sua conta:\n1. Acesse o website http://www.clarotvmais.com.br.com.br/\n2. Fa\u00e7a login e clique sobre seu nome no menu superior direito\n3. Entre em Minha Conta e na sequ\u00eancia em Gest\u00e3o Dispositivos\n4. Inclua/ exclua os 5 dispositivos que preferir"
+    },
+    {
+        "term": "ERR_PLAYER_P015",
+        "definition": "O conte\u00fado est\u00e1 bloqueado por verifica\u00e7\u00e3o de bloqueio geogr\u00e1fico"
+    },
+    {
+        "term": "ERR_PLAYER_P016",
+        "definition": "Erro Gen\u00e9rico"
+    },
+    {
+        "term": "ERR_A001_NO_INTERNET_BUTTON_WIFI_SETTINGS",
+        "definition": "Configura\u00e7\u00f5es de wifi"
+    },
+    {
+        "term": "ERR_PLAYER_008_SESSION_OPEN_TIMEOUT",
+        "definition": "Tempo limite de abertura da sess\u00e3o"
+    },
+    {
+        "term": "ERR_PLAYER_009_SESSION_CONTENT_NOT_ALLOWED",
+        "definition": "Conte\u00fado n\u00e3o permitido"
+    },
+    {
+        "term": "ERR_PLAYER_010_SESSION_BAD_REQUEST",
+        "definition": "Pedido ruim"
+    },
+    {
+        "term": "ERR_PLAYER_011_SESSION_CONCURRENT_STREAM_LIMIT",
+        "definition": "Limite de streaming simult\u00e2neos atingido"
+    },
+    {
+        "term": "ERR_PLAYER_012_SESSION_USER_LOCATION_LIMITATION",
+        "definition": "O canal nacional n\u00e3o pode ser reproduzido no local do usu\u00e1rio"
+    },
+    {
+        "term": "ERR_PLAYER_013_SESSION_NO_RIGHTS",
+        "definition": "O usu\u00e1rio n\u00e3o tem direitos para assistir"
+    },
+    {
+        "term": "ERR_PLAYER_014_SESSION_DEVICE_LIMIT",
+        "definition": "Voc\u00ea ultrapassou o n\u00famero de dispositivos de acesso permitidos (5 por cliente). Para gerenciar os dispositivos cadastrados em sua conta:\n1. Acesse o website http://www.clarotvmais.com.br/\n2. Fa\u00e7a login e clique sobre seu nome no menu superior direito\n3. Entre em Minha Conta e na sequ\u00eancia em Gest\u00e3o Dispositivos\n4. Inclua/ exclua os 5 dispositivos que preferir"
+    },
+    {
+        "term": "ERR_PLAYER_015_SESSION_GEOBLOCKING",
+        "definition": "O conte\u00fado est\u00e1 bloqueado pela verifica\u00e7\u00e3o de bloqueio geogr\u00e1fico"
+    },
+    {
+        "term": "ERR_PLAYER_016_SESSION_GENERIC",
+        "definition": "Erro gen\u00e9rico"
+    },
+    {
+        "term": "ERR_PLAYER_017_SESSION_NO_RIGHTS_ENTITLEMENT",
+        "definition": "O usu\u00e1rio n\u00e3o tem direitos para assistir"
+    },
+    {
+        "term": "SCREEN_RESET_PASSWORD_TEXT_QR",
+        "definition": "Digitalize este c\u00f3digo QR para alterar sua senha no site do cadastro.claro.com.br/recuperar-senha \n\nAp\u00f3s alterar sua senha, volte para Login e insira suas credenciais."
+    },
+    {
+        "term": "SCREEN_RESET_PASSWORD_EMAIL_BUTTON",
+        "definition": "E-mail"
+    },
+    {
+        "term": "SCREEN_RESET_PASSWORD_BACK_BUTTON",
+        "definition": "Volte ao Login"
+    },
+    {
+        "term": "SCREEN_RESET_PASSWORD_SMS_BUTTON",
+        "definition": "SMS"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASS_SUB_TITLE_EMAIL",
+        "definition": "O c\u00f3digo de valida\u00e7\u00e3o foi enviado para seu e-mail %email%"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASSWORD_ENTER_CODE",
+        "definition": "Digite o c\u00f3digo recebido"
+    },
+    {
+        "term": "NEW_PASSWORD_TITLE",
+        "definition": "Nova Senha"
+    },
+    {
+        "term": "NEW_PASSWORD_FIELD1",
+        "definition": "Insira a nova senha"
+    },
+    {
+        "term": "NEW_PASSWORD_FIELD2",
+        "definition": "Re-insire a nova senha"
+    },
+    {
+        "term": "SAVE_BUTTON",
+        "definition": "Salvar"
+    },
+    {
+        "term": "PASSWORD_CHANGED_TITLE",
+        "definition": "Senha alterada"
+    },
+    {
+        "term": "PASSWORD_CHANGED_BODY",
+        "definition": "Sua senha foi alterada com sucesso para todas as plataformas."
+    },
+    {
+        "term": "MY_ACCOUNT_PAGE_TITLE",
+        "definition": "Minha Conta"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASS_SUB_TITLE_SMS",
+        "definition": "O c\u00f3digo de valida\u00e7\u00e3o foi enviado para o seu telem\u00f3vel %phone%"
+    },
+    {
+        "term": "USE_QR_CODE_TITLE",
+        "definition": "Usar c\u00f3digo QR"
+    },
+    {
+        "term": "MY_ACC_PERSONAL_COLLECTION",
+        "definition": "Cole\u00e7\u00e3o pessoal"
+    },
+    {
+        "term": "MY_ACC_MY_LIST",
+        "definition": "Minha Lista"
+    },
+    {
+        "term": "MY_ACC_RENTALS",
+        "definition": "Alugados"
+    },
+    {
+        "term": "MY_ACC_PURCHASED",
+        "definition": "Comprados"
+    },
+    {
+        "term": "MY_ACC_ACCOUNT_SETTINGS",
+        "definition": "Configura\u00e7\u00f5es de Conta"
+    },
+    {
+        "term": "MY_ACC_CLARO_NOTIFICATIONS",
+        "definition": "Notifica\u00e7\u00f5es da Claro"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES",
+        "definition": "Meus Dispositivos"
+    },
+    {
+        "term": "MY_ACC_MY_CONTRACTS",
+        "definition": "Meus contratos"
+    },
+    {
+        "term": "MY_ACC_MANAGE_SUBSCRIPTIONS",
+        "definition": "Gerenciar Assinaturas"
+    },
+    {
+        "term": "MY_ACC_MY_CONTRACTS_RESIDENTIAL",
+        "definition": "Contratos Residenciais"
+    },
+    {
+        "term": "MY_ACC_MY_CONTRACTS_MOBILE",
+        "definition": "Contratos M\u00f3veis"
+    },
+    {
+        "term": "BETA_VERSION_TITLE",
+        "definition": "Esta \u00e9 uma vers\u00e3o BETA"
+    },
+    {
+        "term": "BETA_VERSION_TEXT",
+        "definition": "Estamos trabalhando para desenvolver a melhor experi\u00eancia para voc\u00ea e esta vers\u00e3o ainda est\u00e1 sendo aprimorada.\nCaso encontre alguma falha, bug ou deseje contribuir para a melhoria deste app de SmartTVs envie um email para n\u00f3s: betateste@claro.com.br"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_CLARO_VIDEO",
+        "definition": "Claro video"
+    },
+    {
+        "term": "MY_ACC_CONTRACTS_INFO_TITLE",
+        "definition": "Escolha seu contrato"
+    },
+    {
+        "term": "MY_ACC_CONTRACTS_INFO_TEXT",
+        "definition": "Depois de optar por aplicar qualquer um de seus contratos, isso ser\u00e1 alterado em todas as plataformas, para sua conta."
+    },
+    {
+        "term": "MY_ACC_LOGOUT_TEXT",
+        "definition": "Estamos ansiosos para v\u00ea-lo novamente!"
+    },
+    {
+        "term": "SCREEN_LOGIN_ERR_WRONG_CPF_TITLE",
+        "definition": "CPF/n\u00famero do passaporte errado. Por favor, tente novamente."
+    },
+    {
+        "term": "SCREEN_LOGIN_ERR_WRONG_CPF_TEXT",
+        "definition": "O n\u00famero que voc\u00ea introduziu est\u00e1 errado ou n\u00e3o est\u00e1 registrado como um contrato Claro Brasil. Por favor, tente novamente."
+    },
+    {
+        "term": "SCREEN_LOGIN_ERR_WRONG_CODE_TEXT",
+        "definition": "O c\u00f3digo que voc\u00ea inseriu n\u00e3o est\u00e1 correto. Por favor verifique e tente novamente."
+    },
+    {
+        "term": "SCREEN_LOGIN_ERR_WRONG_CODE_TEXT2",
+        "definition": "O c\u00f3digo inserido est\u00e1 incorreto. Tente novamente ou pe\u00e7a pelo suporte da Claro em http/www.claro.br"
+    },
+    {
+        "term": "NEW_PASSWORD_SUB_TITLE",
+        "definition": "Verifique se sua senha corresponde"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASSWORD_CPF_FIELD",
+        "definition": "CPF/Passaporte"
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASS_30_MIN1",
+        "definition": "J\u00e1 foi enviado um e-mail para o seu e-mail com o c\u00f3digo gerado."
+    },
+    {
+        "term": "SCREEN_ALERT_FORGOT_PASS_30_MIN2",
+        "definition": "Um novo c\u00f3digo n\u00e3o pode ser gerado nos pr\u00f3ximos %minutes% minutos."
+    },
+    {
+        "term": "ERR_LOGIN_REQUIRED_P018_SMTV",
+        "definition": "Login necesario"
+    },
+    {
+        "term": "ERR_LOGIN_REQUIRED_P019_SMTV",
+        "definition": "O token n\u00e3o \u00e9 v\u00e1lido."
+    },
+    {
+        "term": "SUBTITLES_ORIGINAL_SMTV",
+        "definition": "Original"
+    },
+    {
+        "term": "CONTENT_WORLD_HINT_MOVE",
+        "definition": "Use as setas para mover"
+    },
+    {
+        "term": "CONTENT_WORLD_HINT_ADD_REMOVE",
+        "definition": "Pressione OK para adicionar"
+    },
+    {
+        "term": "CONTENT_WORLD_HINT_LONG_PRESS",
+        "definition": "Pressione e segure \"OK\" para reordenar Favoritos ou adicionar/remover mundos"
+    },
+    {
+        "term": "ALERT_DATE_TIME_SETTINGS_TITLE",
+        "definition": "Altere a configura\u00e7\u00e3o de data/hora"
+    },
+    {
+        "term": "ALERT_DATE_TIME_SETTINGS_DESCRIPTION",
+        "definition": "A configura\u00e7\u00e3o de data/hora do seu dispositivo n\u00e3o est\u00e1 definida corretamente. Altere a Data/Hora acessando no menu Configura\u00e7\u00f5es a se\u00e7\u00e3o Data e hora autom\u00e1ticas e selecionando 'Usar hora fornecida pela rede'"
+    },
+    {
+        "term": "ALERT_DATE_TIME_SETTINGS_BUTTON",
+        "definition": "Configura\u00e7\u00f5es"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_DISABLE",
+        "definition": "Desablitar"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_RENAME",
+        "definition": "Renomear"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_ANDROID_TV",
+        "definition": "Android TV"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_ANDROID_MOBILE",
+        "definition": "Android Mobile"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_IPHONE",
+        "definition": "iPhone"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_IPAD",
+        "definition": "iPad"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_DEFAULT_DEVICE",
+        "definition": "Dispositivo"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_ID",
+        "definition": "ID"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_TYPE",
+        "definition": "Tipo"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_NAME",
+        "definition": "Nome"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_DATE",
+        "definition": "Data"
+    },
+    {
+        "term": "MY_ACC_GEN_ERR",
+        "definition": "N\u00e3o foi poss\u00edvel carregar os dados para a se\u00e7\u00e3o que voc\u00ea est\u00e1 tentando acessar. Por favor, tente novamente mais tarde."
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_INFO_TITLE",
+        "definition": "Gerenciar dispositivo"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_INFO_TEXT",
+        "definition": "Desative ou renomeie dispositivos da sua conta"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_DISABLE_DIALOG_TITLE",
+        "definition": "Desativar Dispositivo"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_DISABLE_DIALOG_DESCRIPTION",
+        "definition": "Ao excluir %device_name%, o dispositivo perder\u00e1 a conex\u00e3o com o aplicativo Claro TV. \n\nTem certeza de que deseja excluir?"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_RENAME_DIALOG_TITLE",
+        "definition": "Renomeie seu dispositivo"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_RENAME_DIALOG_DESCRIPTION",
+        "definition": "Digite um novo nome para o seu dispositivo e pressione o bot\u00e3o Sim"
+    },
+    {
+        "term": "MY_ACC_MY_CONTRACTS_CHANGE_DIALOG_TITLE",
+        "definition": "Alterar contrato?"
+    },
+    {
+        "term": "MY_ACC_MY_CONTRACTS_CHANGE_DIALOG_DESCRIPTION",
+        "definition": "Todas as plataformas ser\u00e3o alteradas para o contrato %contract_name% para sua conta. \n\nTem certeza de que deseja aplicar essas altera\u00e7\u00f5es?"
+    },
+    {
+        "term": "BUTTON_YES",
+        "definition": "Sim"
+    },
+    {
+        "term": "BUTTON_NO",
+        "definition": "N\u00e3o"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_RENAME_DIALOG_ERROR",
+        "definition": "Ocorreu um problema ao renomear o dispositivo. Por favor, tente novamente mais tarde."
+    },
+    {
+        "term": "ERR_ASSET_NOT_FOUND",
+        "definition": "Erro na p\u00e1gina de detalhes"
+    },
+    {
+        "term": "ERR_ASSET_NOT_FOUND_DESC",
+        "definition": "Os detalhes n\u00e3o podem ser exibidos no momento. Por favor, tente novamente mais tarde."
+    },
+    {
+        "term": "AGE_RATING_L_DESCRIPTION",
+        "definition": "Livre para todos os p\u00fablicos"
+    },
+    {
+        "term": "GUEST_MODE_HOME_NOTIFICATION",
+        "definition": "Por favor, esteja ciente de que no modo visitante voc\u00ea n\u00e3o pode sair da tela inicial. Para assistir TV ao vivo, fa\u00e7a o login."
+    },
+    {
+        "term": "MINI_EPG_UI_TEXT_UNDER_BUTTON",
+        "definition": "Guia TV"
+    },
+    {
+        "term": "TITULO_LISTA_DE_CANAIS",
+        "definition": "Canais"
+    },
+    {
+        "term": "SMTV_BUY_BUTTON",
+        "definition": "Adquirir"
+    },
+    {
+        "term": "ALERT_PURCHASE_SMTV_TITLE",
+        "definition": "Agradecemos seu interesse!"
+    },
+    {
+        "term": "CATCHUP_BUTTON",
+        "definition": "Catchup"
+    },
+    {
+        "term": "MY_ACC_LOG_OUT",
+        "definition": "Sair"
+    },
+    {
+        "term": "MY_ACC_LOG_OUT_INFO_TITLE",
+        "definition": "Sair"
+    },
+    {
+        "term": "MY_ACC_LOG_OUT_INFO_TEXT",
+        "definition": "Estamos esperando voc\u00ea voltar para uma nova experi\u00eancia."
+    },
+    {
+        "term": "MY_ACC_LOG_OUT_DIALOG_DESCRIPTION",
+        "definition": "Tem certeza que deseja sair?"
+    },
+    {
+        "term": "BETA_VERSION_TITLE_V2",
+        "definition": "Prepare-se"
+    },
+    {
+        "term": "BETA_VERSION_TEXT_V2",
+        "definition": "Em breve, o NOW Online vai mudar de nome\n"
+    },
+    {
+        "term": "SCREEN_DETAIL_RENT_BUTTON",
+        "definition": "Alugar"
+    },
+    {
+        "term": "SCREEN_DETAIL_BUY_BUTTON",
+        "definition": "Comprar"
+    },
+    {
+        "term": "SCREEN_DETAIL_SUBSCRIBE_BUTTON",
+        "definition": "Assinar"
+    },
+    {
+        "term": "BETA_VERSION_TEXT_V3",
+        "definition": "Voc\u00ea merece o melhor conte\u00fado, do jeito que voc\u00ea quiser."
+    },
+    {
+        "term": "BETA_VERSION_TITLE_V3",
+        "definition": "Agora, o NOW Online \u00e9 Claro tv+"
+    },
+    {
+        "term": "ERR_PLAYER_P014_ATV",
+        "definition": "Voc\u00ea excedeu o n\u00famero de dispositivos de acesso permitidos (5 por cliente).\nPara gerenciar/remover os dispositivos registrados em sua conta, pressione OK no seu Controle Remoto."
+    },
+    {
+        "term": "ADD_TO_MY_LIST_BUTTON",
+        "definition": "+ Minha Lista"
+    },
+    {
+        "term": "REMOVE_FROM_MY_LIST_BUTTON",
+        "definition": "- Minha Lista"
+    },
+    {
+        "term": "NOTIF_FAIL_REMOVE_VOD_MY_LIST",
+        "definition": "Opa! N\u00e3o foi poss\u00edvel atualizar sua lista. Por favor, tente novamente!"
+    },
+    {
+        "term": "NOTIF_CURRENT_VOD_ADDED_MY_LIST",
+        "definition": "%title% foi adicionado \u00e0 sua lista de favoritos!"
+    },
+    {
+        "term": "NOTIF_CURRENT_VOD_REMOVED_MY_LIST",
+        "definition": "%title% foi removido da sua lista de favoritos!"
+    },
+    {
+        "term": "MY_ACC_MY_LIST_EMPTY_INFO_TITLE",
+        "definition": "Cole\u00e7\u00e3o vazia"
+    },
+    {
+        "term": "MY_ACC_MY_LIST_EMPTY_INFO_DESCRIPTION",
+        "definition": "N\u00e3o h\u00e1 itens em sua cole\u00e7\u00e3o. Voc\u00ea precisa adicionar pelo menos um item \u00e0 se\u00e7\u00e3o."
+    },
+    {
+        "term": "NOTIFICATION_ITEM_ADDED_TITLE",
+        "definition": "Adicionado \u00e0 lista!"
+    },
+    {
+        "term": "NOTIFICATION_ITEM_REMOVED_TITLE",
+        "definition": "Removido da lista!"
+    },
+    {
+        "term": "ERR_MESSAGE_DEVICE_LIMIT",
+        "definition": "Voc\u00ea excedeu o n\u00famero de dispositivos de acesso permitidos para este canal. Para gerenciar os dispositivos registrados em sua conta:\n1. Acesse o site http://www.clarotvmais.com.br/\n2. Fa\u00e7a login e clique no seu nome no menu superior direito\n3. Entre em Minha conta e depois em Gerenciamento de dispositivos\n4. Exclua os dispositivos da sua conta\n5. Reinicie o aplicativo na smart tv"
+    },
+    {
+        "term": "DETAIL_RENTAL_TEXT_TEMPLATE",
+        "definition": "Alugar por"
+    },
+    {
+        "term": "DETAIL_RENTAL_HOURS_TEMPLATE",
+        "definition": "%RENTAL_DURATION%h"
+    },
+    {
+        "term": "MY_ACC_MY_DEVICES_INFO",
+        "definition": "O uso do Claro tv+ \u00e9 realizado apenas em aparelhos habilitados. \u00c9 poss\u00edvel registrar at\u00e9 %max_devices% dispositivos. O registro pode ser alterado %associations% vez(es) em um per\u00edodo de 30 dias."
+    },
+    {
+        "term": "ASSOCIATION_LIMIT",
+        "definition": "As altera\u00e7\u00f5es de dispositivo s\u00e3o permitidas a partir de:"
+    },
+    {
+        "term": "SCREEN_DETAIL_RENT_FOR_DISCOUNTED_PRICE_BUTTON",
+        "definition": "Aluga de %currency% %price% para %currency% %discounted%"
+    },
+    {
+        "term": "SUBSCRIBE_FOR_DISCOUNTED_PRICE_BUTTON",
+        "definition": "Assinar de %currency% %price% para %currency% %discounted%"
+    },
+    {
+        "term": "SUBSCRIBE_FOR_DISCOUNTED_PRICE_MONTHLY_BUTTON",
+        "definition": "Assine de %currency% %price% para %currency% %discounted%"
+    },
+    {
+        "term": "BUY_DESCRIPTION_PRODUCT_TEMPLATE",
+        "definition": "Ao comprar este conte\u00fado voc\u00ea pode acess\u00e1-lo em"
+    },
+    {
+        "term": "RENTAL_DESCRIPTION_PRODUCT_TEMPLATE",
+        "definition": "Ao alugar esse conteudo voce tera %period% horas para assistir"
+    },
+    {
+        "term": "RENTAL_DISCOUNTED_INFO_PRODUCT_TEMPLATE",
+        "definition": "Alugar de %currency% %price% para %currency% %discounted% / %period%h"
+    },
+    {
+        "term": "SVOD_DESCRIPTION_PRODUCT_TEMPLATE",
+        "definition": "Ao alugar este conte\u00fado voc\u00ea pode acess\u00e1-lo a qualquer momento, mesmo quando ele for retirado do cat\u00e1logo Claro tv+"
+    },
+    {
+        "term": "BUY_DISCOUNTED_INFO_PRODUCT_TEMPLATE",
+        "definition": "Compre de %currency% %price% por %currency% %discounted%"
+    },
+    {
+        "term": "SVOD_DISCOUNTED_INFO_PRODUCT_TEMPLATE",
+        "definition": "De %currency% %price% para %currency% %discounted% / mensal"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_SUBSCRIPTION_REQUIRED_TITLE",
+        "definition": "Aquisi\u00e7\u00e3o necess\u00e1ria"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_SUBSCRIPTION_REQUIRED_BODY",
+        "definition": "Voc\u00ea pode adquirir este conte\u00fado pelo site da Claro tv+"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_RENT_NEEDED_TITLE",
+        "definition": "Aquisi\u00e7\u00e3o necess\u00e1ria"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_RENT_NEEDED_BODY",
+        "definition": "Voc\u00ea pode adquirir este conte\u00fado pelo site da Claro tv+"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_PURCHASE_REQUIRED_TITLE",
+        "definition": "Compra necess\u00e1ria"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_PURCHASE_REQUIRED_BODY",
+        "definition": "Voc\u00ea pode adquirir este conte\u00fado pelo site da Claro tv+"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_ORDER_NEEDED_TITLE",
+        "definition": "Aquisi\u00e7\u00e3o necess\u00e1ria"
+    },
+    {
+        "term": "SCREEN_DETAIL_ALERT_ORDER_NEEDED_BODY",
+        "definition": "Voc\u00ea pode adquirir este conte\u00fado pelo site da Claro tv+"
+    },
+    {
+        "term": "AUDIO_LANGUAGE_UNDEFINED",
+        "definition": "\u00e9 diferente de portugu\u00eas ou ingl\u00eas e n\u00e3o p\u00f4de ser identificado"
+    },
+    {
+        "term": "NOTIFICATION_PAST_PROGRAM_TEXT",
+        "definition": "Este programa estava no passado e n\u00e3o pode ser reproduzido agora"
+    },
+    {
+        "term": "NOTIFICATION_FUTURE_PROGRAM_TEXT",
+        "definition": "Este programa est\u00e1 no futuro e n\u00e3o pode ser reproduzido agora"
+    },
+    {
+        "term": "NOTIFICATION_PROGRAM_NOT_TUNED_TITLE",
+        "definition": "N\u00e3o \u00e9 poss\u00edvel reproduzir agora"
+    },
+    {
+        "term": "FAVORITE_CHANNEL",
+        "definition": "Canal favorito"
+    },
+    {
+        "term": "ONE_CLICK_BUY_ACTIVATED",
+        "definition": "Compra com 1 clique habilitada!"
+    },
+    {
+        "term": "CONTENT_MARKER_PAST",
+        "definition": "PASSADO"
+    },
+    {
+        "term": "LANGUAGE_FRENCH",
+        "definition": "Franc\u00eas"
+    },
+    {
+        "term": "ONE_CLICK_BUY",
+        "definition": "Compra com um clique"
+    },
+    {
+        "term": "ONE_CLICK_BUY_ENABLE",
+        "definition": "Ativar"
+    },
+    {
+        "term": "ONE_CLICK_BUY_DISABLE",
+        "definition": "Desativar"
+    },
+    {
+        "term": "ONE_CLICK_BUY_ENABLE_BUTTON",
+        "definition": "Ativar"
+    },
+    {
+        "term": "ONE_CLICK_BUY_ENABLED_BUTTON",
+        "definition": "Ativado"
+    },
+    {
+        "term": "ONE_CLICK_BUY_DISABLE_BUTTON",
+        "definition": "Desativar"
+    },
+    {
+        "term": "ONE_CLICK_BUY_DISABLED_BUTTON",
+        "definition": "Desativado"
+    },
+    {
+        "term": "ONE_CLICK_BUY_PREF",
+        "definition": "Compra Com um Clique"
+    },
+    {
+        "term": "ONE_CLICK_BUY_INFO_TEXT",
+        "definition": "A compra com um clique pode ser ativada ou desativada para este dispositivo. O PIN e necess\u00e1rio."
+    },
+    {
+        "term": "ONE_CLICK_UPDATE_STATUS",
+        "definition": "Atualizar o Status"
+    },
+    {
+        "term": "ONE_CLICK_BUY_INFO_TEXT_P",
+        "definition": "Para fazer qualquer uma dessas altera\u00e7\u00f5es, seu PIN \u00e9 solicitado."
+    },
+    {
+        "term": "ONE_CLICK_BUY_INFO_BSS_TEXT",
+        "definition": "O recurso One Click Buy est\u00e1 sempre habilitado para o seu tipo de conta. Isto significa que voc\u00ea pode fazer qualquer compra mais rapidamente, sem um PIN."
+    },
+    {
+        "term": "LANDING_FIRST_TIME_USER",
+        "definition": "Primeiro accesso? CADASTRE-SE"
+    },
+    {
+        "term": "SCREEN_ALERT_FIRST_TIME_LINK",
+        "definition": "Primeiro acesso?"
+    },
+    {
+        "term": "SCREEN_ALERT_FIRST_TIME_HEADER",
+        "definition": "Primeiro acesso?"
+    },
+    {
+        "term": "SCREEN_ALERT_FIRST_TIME_SUBHEADER",
+        "definition": "Acesse https://www.clarotvmais.com.br/cadastro para criar uma conta."
+    },
+    {
+        "term": "FTI_LANDING_SCREEN_TITLE_NEW",
+        "definition": "O melhor da TV e do Streaming"
+    },
+    {
+        "term": "FTI_LANDING_MESSAGE_NEW",
+        "definition": "+ 100 canais de TV ao vivo\n+ 50.000 conte\u00fados on demand\n+ Filmes e s\u00e9ries em Claro video para todos os clientes Claro"
+    },
+    {
+        "term": "NEW_LOGIN_BUTTON",
+        "definition": "J\u00e1 tem login? ACESSE"
+    },
+    {
+        "term": "CONTINUE_AS_GUEST_BUTTON_NEW",
+        "definition": "Quer conhecer? EXPLORE"
+    },
+    {
+        "term": "QR_LOGIN_TITLE",
+        "definition": "Cadastre-se"
+    },
+    {
+        "term": "QR_LOGIN_TEXT",
+        "definition": "Use sua c\u00e2mera ou um leitor de QR code\nou acesse https://www.clarotvmais.com.br/cadastro"
+    },
+    {
+        "term": "SCREEN_LOGIN_FORGOTPASSWORD_TEXT",
+        "definition": "Esqueceu sua senha? Acesse o site cadastro.claro.com.br/recuperar-senha\nPrimeiro acesso? Acesse https://www.clarotvmais.com.br/cadastro"
+    },
+    {
+        "term": "GLOBAL_LANGUAGE_PREF",
+        "definition": "Prefer\u00eancias Globais de Idioma"
+    },
+    {
+        "term": "GLOBAL_LANGUAGE_PREF_INFO",
+        "definition": "Aqui voc\u00ea tem a op\u00e7\u00e3o de mudar globalmente o \u00e1udio e as legendas no aplicativo Claro tv+."
+    },
+    {
+        "term": "ONE_CLICK_BUY_BSS_INFO_ATV",
+        "definition": "O recurso One Click Buy est\u00e1 sempre habilitado para seu tipo de conta, mas ainda n\u00e3o pode ser usado neste tipo de dispositivo. Para adquirir qualquer conte\u00fado, acesse o site clarotvmais.com.br"
+    },
+    {
+        "term": "ERR_SORRY_TITLE",
+        "definition": "Desculpas"
+    },
+    {
+        "term": "QR_LOGIN_TITLE_ACTUAL",
+        "definition": "Fa\u00e7a seu login"
+    },
+    {
+        "term": "QR_LOGIN_TEXT_ACTUAL",
+        "definition": "Use sua c\u00e2mera ou um leitor de c\u00f3digo QR para iniciar seu login.\n"
+    },
+    {
+        "term": "QR_LOGIN_TEXT_ACTUAL_SECOND",
+        "definition": "Ou acesse https://clarotvmais.com.br/ativar e digite o c\u00f3digo:"
+    },
+    {
+        "term": "OTHER_QR_CODE_LOGIN_BUTTON",
+        "definition": "Outra forma de fazer login"
+    },
+    {
+        "term": "LANDING_ALERT_SIGNUP_LINK_TEXT",
+        "definition": "Acesse https://www.clarotvmais.com.br/cadastro a fim de criar uma conta."
+    },
+    {
+        "term": "PLAYER_HINT_OK_SEEK",
+        "definition": "Pressione 'OK' para mover"
+    },
+    {
+        "term": "QR_LOGIN_GENERATE_NEW_CODE_BUTTON",
+        "definition": "Gerar novo c\u00f3digo"
+    },
+    {
+        "term": "SUCCESS_TITLE",
+        "definition": "Sucesso"
+    },
+    {
+        "term": "FILE_UPLOAD_SUCCESS",
+        "definition": "Os logs foram enviados com sucesso."
+    },
+    {
+        "term": "FAILED",
+        "definition": "Falha"
+    },
+    {
+        "term": "FILE_UPLOAD_FAILED",
+        "definition": "Algo deu errado com o upload. Por favor, tente novamente mais tarde."
+    },
+    {
+        "term": "SEND_LOGS_BUTTON",
+        "definition": "Send logs"
+    },
+    {
+        "term": "ENTER_PASSWORD_TITLE",
+        "definition": "Senha"
+    },
+    {
+        "term": "ENTER_PASSWORD_BODY",
+        "definition": "Por favor, digite a senha para logs."
+    },
+    {
+        "term": "ENTER_PASSWORD_MANDATORY_ERROR",
+        "definition": "A senha \u00e9 obrigat\u00f3ria."
+    },
+    {
+        "term": "WELCOME_TITLE",
+        "definition": "Bem-vindos"
+    },
+    {
+        "term": "GALLERY_API_FALLBACK_TEXT",
+        "definition": "Agora voc\u00ea tem acesso aos melhores filmes, s\u00e9ries e canais de TV, tudo em um s\u00f3 lugar."
+    },
+    {
+        "term": "STRIPE_LAST_WATCHED",
+        "definition": "Ultimos asistidos"
+    },
+    {
+        "term": "FTP_WRONG_PASSWORD",
+        "definition": "Wrong pass for FTP"
+    },
+    {
+        "term": "EPG_SELECT_DAY",
+        "definition": "Selecionar dia"
+    },
+    {
+        "term": "ROKU_SIGNUP_CREATE_AC_TITLE",
+        "definition": "Voc\u00ea \u00e9 novo por aqui"
+    },
+    {
+        "term": "ROKU_SIGNUP_CREATE_AC_TEXT",
+        "definition": "Informe seu email para se cadastrar."
+    },
+    {
+        "term": "SETTINGS_PRIVACY_POLICY_TEXT",
+        "definition": "Para toda a \"Pol\u00edtica de Privacidade\", acesse o site \nhttps://bit.ly/3mcmWwR\nPrimeiro acesso? Ir para https://www.claro.com.br/cadastro"
+    },
+    {
+        "term": "SETTINGS_TERMS_OF_USE_TEXT",
+        "definition": "Para os \"Termos de Uso\" completos, acesse o site \nhttps://bit.ly/3dXKbGz\nPrimeiro acesso? Ir para https://www.clarotvmais.com.br/cadastro"
+    },
+    {
+        "term": "CPF_FIELD_TEXT",
+        "definition": "CPF"
+    },
+    {
+        "term": "CPF_ALREADY_REGISTERED",
+        "definition": "CPF j\u00e1 registrado"
+    },
+    {
+        "term": "CPF_ALREADY_REGISTERED_TEXT",
+        "definition": "Voc\u00ea j\u00e1 possui uma conta ClaroTv+ conectada a este\nCPF: %CPF%\nUse este c\u00f3digo CPF para fazer login ou criar conta usando o novo c\u00f3digo CPF."
+    },
+    {
+        "term": "NEW_CPF_BUTTON",
+        "definition": "Usar outro CPF"
+    },
+    {
+        "term": "USER_DATA_TITLE",
+        "definition": "Conte-nos um pouco sobre voc\u00ea"
+    },
+    {
+        "term": "USER_DATA_FULL_NAME",
+        "definition": "Nome completo"
+    },
+    {
+        "term": "USER_DATA_AREA_CEP",
+        "definition": "O seu CEP"
+    },
+    {
+        "term": "USER_DATA_BIRTH_YEAR",
+        "definition": "Ano de nascimento"
+    },
+    {
+        "term": "CREATE_ACCOUNT_BUTTON",
+        "definition": "Criar conta"
+    },
+    {
+        "term": "USER_DATA_INFO_TEXT",
+        "definition": "Ao criar uma conta ClaroTV+ voc\u00ea concorda com nossos Termos de Uso e Pol\u00edtica de Privacidade. Voc\u00ea entende que pode receber mensagens de marketing."
+    },
+    {
+        "term": "UNKNOWN_ERROR_BITMOVIN",
+        "definition": "Pedimos desculpas! Ocorreu um erro desconhecido com seu jogador. Por favor, tente novamente dentro de alguns instantes!"
+    },
+    {
+        "term": "SETUP_LICENSE_ERROR1103_BITMOVIN",
+        "definition": "Desculpe! Ocorreu um erro com seu jogador. Especificamente: A licen\u00e7a do jogador n\u00e3o \u00e9 v\u00e1lida. Por favor, tente novamente dentro de alguns instantes!"
+    },
+    {
+        "term": "SOURCE_INVALID1201_BITMOVIN",
+        "definition": "Pedimos desculpas! Ocorreu um erro com seu player. Especificamente: Nenhuma fonte v\u00e1lida foi fornecida. Por favor, tente novamente dentro de alguns instantes!"
+    },
+    {
+        "term": "PLAYBACK_ERROR1300_BITMOVIN",
+        "definition": "Pedimos desculpas! Ocorreu um erro com seu player. Especificamente: Erro geral de reprodu\u00e7\u00e3o. Por favor, tente novamente dentro de alguns instantes!"
+    },
+    {
+        "term": "NETWORK_ERROR1400_BITMOVIN",
+        "definition": "Desculpe! Ocorreu um erro com seu player. Especificamente: Erro de rede durante o download. Por favor, tente novamente dentro de alguns instantes!"
+    },
+    {
+        "term": "DRM_ERROR2000_BITMOVIN",
+        "definition": "Pedimos desculpas! Ocorreu um erro com seu player. Especificamente: Erro geral de DRM. Por favor, tente novamente dentro de alguns instantes!"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_SEARCH",
+        "definition": "Busca"
+    },
+    {
+        "term": "MODULE_MAIN_MENU_ACCESS",
+        "definition": "Accese"
+    },
+    {
+        "term": "CHANGE_DAY_EPG",
+        "definition": "Mude o Dia"
+    },
+    {
+        "term": "ERR_PLAYER_CHANNEL_ENTITLEMENT_FAILED",
+        "definition": "Algo deu errado ao tentar verificar se sua inscri\u00e7\u00e3o inclui este canal, saia e fa\u00e7a login novamente ou tente novamente mais tarde!"
+    },
+    {
+        "term": "GUEST_MODE_PAGE_TITLE",
+        "definition": "Modo Visitante"
+    },
+    {
+        "term": "SYS_INFO_INFO_TEXT",
+        "definition": "Aqui voc\u00ea pode encontrar informa\u00e7\u00f5es espec\u00edficas sobre seu dispositivo."
+    },
+    {
+        "term": "CHANGE_PIN_INFO_TEXT",
+        "definition": "Se voc\u00ea sabe seu c\u00f3digo PIN atual, mas quer mud\u00e1-lo, por favor, siga os pr\u00f3ximos passos."
+    },
+    {
+        "term": "FORGOT_PIN_INFO_TEXT",
+        "definition": "Se voc\u00ea esqueceu seu PIN atual, por favor, siga os pr\u00f3ximos passos a fim de redefini-lo."
+    },
+    {
+        "term": "EPG_CARD_TITLE",
+        "definition": "Guia de TV"
+    },
+    {
+        "term": "EPG_CARD_TEXT",
+        "definition": "Veja toda a nossa grade de programa\u00e7\u00e3o"
+    },
+    {
+        "term": "NOW_ON_TV_CARD_TITLE",
+        "definition": "Agora na TV"
+    },
+    {
+        "term": "NOW_ON_TV_CARD_TEXT",
+        "definition": "Saiba o que est\u00e1 no ar agora"
+    },
+    {
+        "term": "MY_ACC_AUDIO_LANGUAGES_INFO_TITLE",
+        "definition": "Escolha o idioma do \u00e1udio"
+    },
+    {
+        "term": "MY_ACC_AUDIO_LANGUAGES_INFO_DESCRIPTION",
+        "definition": "Ao selecionar uma op\u00e7\u00e3o da lista dispon\u00edvel, voc\u00ea pode definir seu idioma de \u00e1udio preferido."
+    },
+    {
+        "term": "MY_ACC_SUBTITLE_LANGUAGES_INFO_TITLE",
+        "definition": "Escolha o idioma das legendas"
+    },
+    {
+        "term": "MY_ACC_SUBTITLE_LANGUAGES_INFO_DESCRIPTION",
+        "definition": "Ao selecionar uma op\u00e7\u00e3o da lista dispon\u00edvel, voc\u00ea pode definir seu idioma de legenda preferido."
+    },
+    {
+        "term": "TV_STRIPE_EPG",
+        "definition": "Funcionalidades"
+    },
+    {
+        "term": "SIGNUP_TITLE_LETS_BEGIN",
+        "definition": "Vamos come\u00e7ar :)"
+    },
+    {
+        "term": "SIGNUP_SUB_TITLE_TEXT",
+        "definition": "Insira seu n\u00famero de CPF, vamos verificar se voc\u00ea j\u00e1 \u00e9 nosso cliente."
+    },
+    {
+        "term": "ROKU_SIGNUP_ALREADY_CLIENT_TITLE",
+        "definition": "Que legal!\nVoc\u00e9 j\u00e1 \u00e9 nosso cliente"
+    },
+    {
+        "term": "ROKU_SIGNUP_ALREADY_CLIENT_TEXT",
+        "definition": "Aproveite o Claro tv+"
+    },
+    {
+        "term": "ROKU_SIGNUP_CLIENT_NO_PASS_TITLE",
+        "definition": "Parece que voc\u00ea\u2028 \nj\u00e1 \u00e9 cliente da Claro :)"
+    },
+    {
+        "term": "ROKU_SIGNUP_CLIENT_NO_PASS_TEXT",
+        "definition": "Para completar seu cadastro, \u2028acesse o site Claro tv+ com o seu CPF."
+    },
+    {
+        "term": "ROKU_SIGNUP_EMAIL_CODE_TITLE",
+        "definition": "Enviamos um c\u00f3digo para o seu e-mail"
+    },
+    {
+        "term": "ROKU_SIGNUP_EMAIL_CODE_TEXT",
+        "definition": "Verifique tamb\u00e9m a sua caixa de spam.\u2028Insira o c\u00f3digo de seis d\u00edgitos enviado para %email%"
+    },
+    {
+        "term": "ROKU_SIGNUP_NO_TOKEN_TITLE",
+        "definition": "N\u00e3o recebeu o token?"
+    },
+    {
+        "term": "ROKU_SIGNUP_NO_TOKEN_TEXT",
+        "definition": "Acesse clarotvmais.com.br/faleconosco"
+    },
+    {
+        "term": "SIGNUP_CHANGE_EMAIL",
+        "definition": "Alterar e-mail"
+    },
+    {
+        "term": "SIGNUP_GENERATE_NEW_CODE_BUTTON",
+        "definition": "Gerar novo c\u00f3digo"
+    },
+    {
+        "term": "SIGNUP_WRONG_TOKEN_TITLE",
+        "definition": "C\u00f3digo de valida\u00e7\u00e3o errado"
+    },
+    {
+        "term": "SIGNUP_WRONG_TOKEN_TEXT",
+        "definition": "Insira o c\u00f3digo enviado para o seu e-mail ou gere um novo c\u00f3digo."
+    },
+    {
+        "term": "SIGNUP_CREATE_PASSWORD_TITLE",
+        "definition": "Agora \u00e9 s\u00f3 criar a sua senha"
+    },
+    {
+        "term": "SIGNUP_CREATE_PASSWORD_TEXT",
+        "definition": "Sua senha precisa ter no m\u00ednimo 8 caracteres, ao menos \num n\u00famero e ao menos uma letra min\u00fascula. \nRecomendamos tamb\u00e9m ao menos uma letra mai\u00fascula\ne ao menos um caractere especial."
+    },
+    {
+        "term": "SIGNUP_WEAK_PASS",
+        "definition": "Senha fraca"
+    },
+    {
+        "term": "SIGNUP_STRONG_PASS",
+        "definition": "Senha forte"
+    },
+    {
+        "term": "STRIPES_TOP_10_TITLE",
+        "definition": "Top 10"
+    },
+    {
+        "term": "SUBSCRIBE_NOW_FOR_TEXT",
+        "definition": "Por apenas %currency% %price% /m\u00eas"
+    }
+]
