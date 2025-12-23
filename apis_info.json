@@ -1,0 +1,82 @@
+{
+  "base_url": "https://151.244.40.192:8443",
+  "analise_data": "2025-12-23T05:35:05.472514",
+  "apis": {
+    "/api/channels": {
+      "method": "GET",
+      "status_code": 200,
+      "content_type": "application/json",
+      "description": "Lista todos os canais disponíveis",
+      "response_sample": [
+        {
+          "category": "Outros",
+          "id": "0",
+          "logo": "https://www.clarotvmais.com.br/img/channels/chegou_no_now.png",
+          "program": "Ao Vivo",
+          "progress": 0,
+          "time": "",
+          "title": "Chegou no NOW"
+        },
+        {
+          "category": "Filmes",
+          "id": "0",
+          "logo": "https://www.clarotvmais.com.br/img/channels/tele_cine_on_demand.png",
+          "program": "Ao Vivo",
+          "progress": 0,
+          "time": "",
+          "title": "Telecine On"
+        },
+        {
+          "category": "Filmes",
+          "id": "68",
+          "logo": "https://www.clarotvmais.com.br/img/channels/telecine_premium.png",
+          "program": "Ao Vivo",
+          "progress": 0,
+          "time": "",
+          "title": "Telecine Premium"
+        }
+      ],
+      "total_channels": 505
+    },
+    "/api/stats": {
+      "method": "GET",
+      "status_code": 200,
+      "content_type": "application/json",
+      "description": "Estatísticas em tempo real",
+      "response": {
+        "online": 6,
+        "visits": 10
+      }
+    },
+    "/api/stream/{id}": {
+      "method": "GET",
+      "status_code": 200,
+      "content_type": "application/json",
+      "description": "Informações de stream para um canal",
+      "parameters": {
+        "id": "ID do canal (ex: 70)"
+      },
+      "response": {
+        "license": "https://multidrm.core.verimatrixcloud.net/widevine",
+        "manifest": "https://d29gfimqcrjqib.cloudfront.net/Content/Channel/SPOTCEHD/dsc1/manifest.mpd",
+        "token_info": {
+          "algorithm": "ES256",
+          "payload": {
+            "ver": 1,
+            "iss": "avs-claro",
+            "iat": 1766468109,
+            "jti": "25341da0-dfc1-11f0-b6cb-91cbfb30202c",
+            "subscriber": "nocbrasil",
+            "aud": "urn:verimatrix:multidrm",
+            "policy": {
+              "widevine": {
+                "override_device_revocation": false
+              }
+            },
+            "sub": "SPOTCEHD"
+          }
+        }
+      }
+    }
+  }
+}
