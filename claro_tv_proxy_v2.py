@@ -1037,7 +1037,12 @@ h1{color:var(--p);margin-bottom:20px}
 </style>
 </head><body>
 <h1>⚙️ Admin - Claro TV+ V3</h1>
-
+<div style="display:flex;gap:10px;margin-bottom:20px">
+<button class="btn btn-p" onclick="showTab('config')">🎛️ Config</button>
+<button class="btn btn-s" onclick="showTab('token')">🔑 Token</button>
+<button class="btn btn-s" onclick="showTab('sys')">💻 Sistema</button>
+</div>
+<div id="p-config">
 <div class="card">
 <h3>🔥 Proxy AntBanClaro</h3>
 <div class="row">
@@ -1055,16 +1060,35 @@ h1{color:var(--p);margin-bottom:20px}
 </div>
 </div>
 
+<button class="btn btn-p" onclick="save()">💾 Salvar</button>
+</div>
+<div id="p-token" style="display:none">
+<div class="card"><h3>🔑 Gerar Token</h3>
+<div id="auth-1" style="text-align:center;padding:20px">
+<p style="color:#888;margin-bottom:15px">Gere um código para renovar cookies</p>
+<button class="btn btn-p" onclick="startAuth()" style="font-size:16px;padding:12px 30px">🚀 GERAR CÓDIGO</button>
+</div>
+<div id="auth-2" style="display:none;text-align:center;padding:20px">
+<p>1. Acesse <a href="https://www.clarotvmais.com.br/ativar" target="_blank" style="color:#e30613">clarotvmais.com.br/ativar</a></p>
+<p>2. Faça login e digite o código:</p>
+<div id="auth-code" style="font-size:36px;font-weight:800;letter-spacing:6px;background:#000;padding:15px;border-radius:10px;margin:15px 0;border:2px dashed #444">------</div>
+<p id="auth-st" style="color:#888">Aguardando...</p>
+<button class="btn btn-s" onclick="cancelAuth()">Cancelar</button>
+</div>
+<div id="auth-3" style="display:none;text-align:center;padding:20px">
+<p style="color:#0f0;font-size:20px">✅ SUCESSO!</p>
+<button class="btn btn-p" onclick="resetAuth()">Gerar Novo</button>
+</div>
+</div></div>
+<div id="p-sys" style="display:none">
 <div class="card">
 <h3>💻 Sistema</h3>
 <div class="status" id="sys">Carregando...</div>
-<button class="btn btn-s" onclick="reinstall()">🔄 Reinstalar Dependências</button>
-</div>
-
-<button class="btn btn-p" onclick="save()">💾 Salvar</button>
-<button class="btn btn-s" onclick="load()">🔄 Recarregar</button>
-
+<button class="btn btn-s" onclick="reinstall()">🔄 Reinstalar</button>
+</div></div>
 <script>
+let authPoll=null;
+function showTab(n){document.getElementById('p-config').style.display=n=='config'?'block':'none';document.getElementById('p-token').style.display=n=='token'?'block':'none';document.getElementById('p-sys').style.display=n=='sys'?'block':'none';if(n=='sys')loadSys();}
 async function load(){
 const d=await(await fetch('/api/settings')).json();
 document.getElementById('px-on').checked=d.settings.proxy_enabled!==false;
@@ -1093,12 +1117,11 @@ ringbuffer_size:document.getElementById('buf').value
 })});
 alert('✅ Salvo!');
 }
-async function reinstall(){
-alert('Reinstalando dependências...');
-await fetch('/api/install-deps',{method:'POST'});
-loadSys();
-alert('Verificação concluída!');
-}
+async function reinstall(){alert('Reinstalando...');await fetch('/api/install-deps',{method:'POST'});loadSys();alert('OK!');}
+async function startAuth(){document.getElementById('auth-1').style.display='none';document.getElementById('auth-2').style.display='block';document.getElementById('auth-st').innerHTML='Gerando...';try{const r=await fetch('/api/auth/start',{method:'POST'});const d=await r.json();if(d.code){document.getElementById('auth-code').textContent=d.code;document.getElementById('auth-st').innerHTML='Aguardando...';authPoll=setInterval(()=>pollAuth(d.code),4000);}else{document.getElementById('auth-st').innerHTML='Erro!';}}catch(e){document.getElementById('auth-st').innerHTML='Erro!';}}
+async function pollAuth(code){try{const r=await fetch('/api/auth/poll',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({code:code})});const d=await r.json();if(d.success){clearInterval(authPoll);document.getElementById('auth-2').style.display='none';document.getElementById('auth-3').style.display='block';}}catch(e){}}
+function cancelAuth(){if(authPoll)clearInterval(authPoll);document.getElementById('auth-2').style.display='none';document.getElementById('auth-1').style.display='block';}
+function resetAuth(){document.getElementById('auth-3').style.display='none';document.getElementById('auth-1').style.display='block';}
 load();
 </script>
 </body></html>'''
