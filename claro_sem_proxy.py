@@ -707,6 +707,7 @@ class ConfigurableStreamer:
             return None
         
         mpd_raw = data['manifest_raw']
+        spoof_ip = data.get('spoof_ip', '177.0.0.1')  # Obter IP do retorno
         print(f"DEBUG: mpd_raw={mpd_raw[:50]}...", file=sys.stderr, flush=True)
         try:
             key = get_decryption_key(mpd_raw, data['license'], data['token'], data['session'])
