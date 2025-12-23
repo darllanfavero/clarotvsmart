@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Player Pro</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/shaka-player.ui.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.3.5/controls.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body{background:#000;margin:0;height:100vh;overflow:hidden;font-family:'Inter',sans-serif;}
+        .overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 100; }
+        .p-header { position: absolute; top: 0; left: 0; width: 100%; padding: 20px; background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent); display: flex; gap: 15px; pointer-events: auto; align-items: center; opacity: 0; transition: opacity 0.3s; }
+        .overlay:hover .p-header { opacity: 1; }
+        .btn-icon { background: rgba(255,255,255,0.1); border: none; color: #fff; border-radius: 50%; cursor: pointer; font-size: 18px; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; }
+        .btn-icon:hover { background: #e30613; }
+        /* NOVO: Estilo para o contador online no player */
+        .online-status { color:#4caf50; font-weight: bold; font-size: 14px; margin-right: 15px; }
+        /* FIM NOVO */
+        .sidebar { position: absolute; top: 0; right: -350px; width: 320px; height: 100%; background: rgba(15,15,15,0.95); backdrop-filter: blur(10px); transition: right 0.3s; pointer-events: auto; display: flex; flex-direction: column; border-left: 1px solid #333; }
+        .sidebar.open { right: 0; }
+        .sb-header { padding: 20px; border-bottom: 1px solid #333; display: flex; justify-content: space-between; align-items: center; color: #fff; font-weight: bold; }
+        .sb-search { padding: 15px; border-bottom: 1px solid #333; }
+        .sb-input { width: 100%; background: #222; border: none; padding: 10px; color: #fff; border-radius: 6px; outline: none; }
+        .sb-list { flex: 1; overflow-y: auto; padding: 10px; }
+        .sb-item { display: flex; align-items: center; gap: 10px; padding: 10px; border-radius: 8px; cursor: pointer; transition: 0.2s; color: #ccc; }
+        .sb-item:hover, .sb-item:focus { background: #333; color: #fff; outline: none; }
+        .sb-item.active { background: #e30613; color: #fff; }
+        .sb-img { width: 40px; height: 30px; object-fit: contain; background: #000; border-radius: 4px; }
+        .settings-menu { position: absolute; top: 70px; right: 20px; background: rgba(15,15,15,0.95); width: 250px; border-radius: 8px; border: 1px solid #333; display: none; pointer-events: auto; }
+        .settings-menu.open { display: block; }
+        .sm-item { padding: 10px 15px; border-bottom: 1px solid #333; color: #ccc; cursor: pointer; font-size: 14px; }
+        .sm-item:hover { background: #333; color: #fff; }
+        .sm-title { padding: 10px 15px; font-weight: bold; color: #e30613; font-size: 12px; letter-spacing: 1px; }
+        .stats-box { position: absolute; top: 70px; left: 20px; background: rgba(0,0,0,0.7); padding: 10px; border-radius: 6px; color: #0f0; font-family: monospace; font-size: 12px; display: none; pointer-events: none; }
+        #video-container { width: 100%; height: 100%; background: #000; }
+        video { width: 100%; height: 100%; }
+        @media (max-width: 600px) { .sidebar { width: 100%; right: -100%; } }
+    </style>
+</head>
+<body>
+    <div id="video-container" data-shaka-player-container>
+        <video data-shaka-player id="video" autoplay></video>
+    </div>
+    <div class="overlay">
+        <div class="p-header">
+            <button class="btn-icon" onclick="window.location.href='/'">←</button>
+            <div style="flex:1; color:#fff; font-weight:600; font-size: 14px;" id="current-title">Carregando...</div>
+            
+            <div class="online-status" id="online-count-player">
+                👤 **6** Online
+            </div>
+            <button class="btn-icon" onclick="toggleStats()" title="Stats for Nerds">📊</button>
+            <button class="btn-icon" onclick="toggleSettings()" title="Qualidade/Áudio">⚙️</button>
+            <button class="btn-icon" onclick="toggleSidebar()" title="Canais">☰</button>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sb-header">CANAIS <span onclick="toggleSidebar()" style="cursor:pointer">✕</span></div>
+            <div class="sb-search"><input type="text" class="sb-input" placeholder="Buscar..." onkeyup="filterSb(this.value)"></div>
+            <div class="sb-list" id="sb-list"></div>
+        </div>
+        <div class="settings-menu" id="settings">
+            <div class="sm-title">QUALIDADE</div>
+            <div id="quality-list"></div>
+            <div class="sm-title">ÁUDIO</div>
+            <div id="audio-list"></div>
+            <div class="sm-title">LEGENDAS</div>
+            <div id="subs-list"></div>
+        </div>
+        <div class="stats-box" id="stats">
+            RES: <span id="st-res">-</span><br>
+            BUF: <span id="st-buf">-</span> s<br>
+            DROP: <span id="st-drop">-</span>
+        </div>
+    </div>
+    <script>
+        let player, channels = [], currentId = "70";
+        const video = document.getElementById('video');
+        async function init() {
+            shaka.polyfill.installAll();
+            if (shaka.Player.isBrowserSupported()) {
+                player = new shaka.Player(video);
+                const ui = new shaka.ui.Overlay(player, document.getElementById('video-container'), video);
+                player.getNetworkingEngine().registerRequestFilter((type, req) => {
+                    if (type == shaka.net.NetworkingEngine.RequestType.LICENSE) req.headers['Authorization'] = window.drmToken;
+                    if (!req.uris[0].includes('/proxy?url=')) req.uris = [window.location.origin + '/proxy?url=' + encodeURIComponent(req.uris[0])];
+                });
+                player.configure({ abr: { enabled: true, defaultBandwidthEstimate: 10000000 }, preferredAudioLanguage: 'pt-BR', streaming: { bufferingGoal: 30, rebufferingGoal: 5 } });
+                loadChannel(currentId);
+                fetch('/api/channels').then(r => r.json()).then(data => { channels = data; renderSidebar(); });
+                setInterval(updateStatsPlayer, 60000); // NOVO: Polling de 60s
+                setInterval(updateStats, 1000);
+            }
+        }
+        // NOVO: Função para atualizar apenas a contagem online do player
+        function updateStatsPlayer() {
+            fetch('/api/stats').then(r => r.json()).then(data => {
+                document.getElementById('online-count-player').innerHTML = '👤 ' + data.online + ' Online';
+            }).catch(e => console.error("Erro ao carregar stats", e));
+        }
+        // FIM NOVO
+        async function loadChannel(id) {
+            currentId = id;
+            document.getElementById('current-title').innerText = "Carregando...";
+            try {
+                const r = await fetch('/api/stream/' + id);
+                const data = await r.json();
+                if (data.error) throw data.error;
+                window.drmToken = data.token;
+                player.configure({ drm: { servers: { 'com.widevine.alpha': data.license } } });
+                await player.load(data.manifest);
+                const ch = channels.find(c => c.id == id);
+                if (ch) document.getElementById('current-title').innerText = ch.title + " - " + ch.program;
+                renderSidebar();
+                updateSettingsMenu();
+            } catch (e) { console.error(e); alert("Erro ao carregar canal."); }
+        }
+        function updateSettingsMenu() {
+            const qList = document.getElementById('quality-list');
+            qList.innerHTML = '<div class="sm-item" onclick="setAutoQuality()">Auto (Recomendado)</div>';
+            const tracks = player.getVariantTracks();
+            const seen = new Set();
+            tracks.filter(t => t.type === 'variant' && t.height).sort((a,b) => b.height - a.height).forEach(t => {
+                if(!seen.has(t.height)) { seen.add(t.height); qList.innerHTML += `<div class="sm-item" onclick="setQuality(${t.id})">${t.height}p (${(t.bandwidth/1000000).toFixed(1)} Mbps)</div>`; }
+            });
+            const aList = document.getElementById('audio-list'); aList.innerHTML = '';
+            player.getAudioLanguagesAndRoles().forEach(l => { aList.innerHTML += `<div class="sm-item" onclick="player.selectAudioLanguage('${l.language}')">${l.language.toUpperCase()}</div>`; });
+            const sList = document.getElementById('subs-list'); sList.innerHTML = '<div class="sm-item" onclick="player.setTextTrackVisibility(false)">Desativado</div>';
+            player.getTextLanguagesAndRoles().forEach(l => { sList.innerHTML += `<div class="sm-item" onclick="enableSub('${l.language}')">${l.language.toUpperCase()}</div>`; });
+        }
+        function enableSub(lang) { player.selectTextLanguage(lang); player.setTextTrackVisibility(true); toggleSettings(); }
+        function setQuality(trackId) { player.configure({ abr: { enabled: false } }); const t = player.getVariantTracks().find(t => t.id === trackId); if(t) player.selectVariantTrack(t, true); toggleSettings(); }
+        function setAutoQuality() { player.configure({ abr: { enabled: true } }); toggleSettings(); }
+        function updateStats() { const s = player.getStats(); document.getElementById('st-res').innerText = s.width + 'x' + s.height; document.getElementById('st-buf').innerText = s.bufferingTime.toFixed(1); document.getElementById('st-drop').innerText = s.droppedFrames; }
+        function renderSidebar(filter = "") {
+            const list = document.getElementById('sb-list'); list.innerHTML = "";
+            channels.filter(c => c.title.toLowerCase().includes(filter.toLowerCase())).forEach(c => {
+                const div = document.createElement('div'); div.className = `sb-item ${c.id == currentId ? 'active' : ''}`;
+                div.innerHTML = `<img src="${c.logo}" class="sb-img"> <div>${c.title}</div>`;
+                div.onclick = () => { loadChannel(c.id); toggleSidebar(); };
+                list.appendChild(div);
+            });
+        }
+        function toggleSidebar() { document.getElementById('sidebar').classList.toggle('open'); }
+        function toggleSettings() { document.getElementById('settings').classList.toggle('open'); }
+        function toggleStats() { const st = document.getElementById('stats'); st.style.display = st.style.display === 'block' ? 'none' : 'block'; }
+        function filterSb(val) { renderSidebar(val); }
+        async function togglePiP() { if (document.pictureInPictureElement) await document.exitPictureInPicture(); else await video.requestPictureInPicture(); }
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+</html>
